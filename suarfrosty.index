@@ -4,7 +4,7 @@
 		<name>Homebrew Collection</name>
 		<description>Homebrew collection from dandwiki.com for us in a campaign I'm co-dm'ing</description>
 		<author url="https://github.com/SuarFrosty/Homebrew-Collection/tree/main">SuarFrosty Github</author>
-		<update version="0.0.5">
+		<update version="0.0.5.1">
 			<file name="suarfrosty.index" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/suarfrosty.index" />
 		</update>
 	</info>
