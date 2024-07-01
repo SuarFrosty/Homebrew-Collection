@@ -2,13 +2,13 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
   <!-- shield -->
   <element name="Hero Shield" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
-    <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD&amp; ID_INTERNAL_WEAPON_PROPERTY_LEGENDARY&amp; ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD, ID_INTERNAL_WEAPON_PROPERTY_LEGENDARY, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
     <description>
       <p>A large, blood-red shield, with bony spikes along the top and sides and a skull of the same material on the front. When wielded, you gain +3 AC.</p>
       <p>While attuned, you also gain resistance to piercing, slashing, and bludgeoning damage.</p>
@@ -30,7 +30,7 @@
   </element>
   <!-- light armor -->
   <element name="Necrolight" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_NECROLIGHT">
-    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT&amp; ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT&amp; ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
     <description>
       <p>The personal cloak of Death. This cloak melts into the shadows when worn. When you wear this cloak you have advantage on Dexterity (Stealth) checks. Your Dexterity also increases to 26 if not already.</p>
       <p>As a cloak of Death, your connection with death makes you continuously harder to dispatch, your AC has been increased to 25 if not already.</p>
@@ -54,7 +54,7 @@
     </rules>
   </element>
   <element name="Robe of Shadows" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
-    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT&amp; ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT&amp; ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
     <description>
       <p>When Vorinthar was chosen as the first Reaper, he crafted himself a special pair of robes to impersonate Death itself. The robes are black without a hood, and made of pure shadow.</p>
       <p>Death's Blessing: If you die while wearing the Robe of Shadows, the robes vanish and you regain 10 hit points.</p>
