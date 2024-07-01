@@ -2,12 +2,12 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
   <!-- martial -->
-  <element name="Animated Sand" type="Weapon" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_MISC">
+  <element name="Animated Sand" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MISC">
     <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
     <description>I had to make this a whole fucking thing so the thing would fucking work</description>
     <setters>
@@ -20,7 +20,7 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
   </element>
-  <element name="Animated Sand" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ANIMATED_SAND">
+  <element name="Animated Sand" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ANIMATED_SAND">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
     <description>
       <p>The Living Sands are ancient magic with a will of their own, allowing merchants to traverse its expanses or snuffing them out with storm and choking dust seemingly on a whim. Once attuned to this sand, it will obey you until you fail three death saves or you un-attune to it. You can use it to make a ranged attack against a single creature 10 feet away using Strength or Dexterity, dealing 1d10 Bludgeoning, Slashing, or Piercing damage.</p>
@@ -53,7 +53,7 @@
       <set name="weapon">Animated Sand</set>
     </setters>
   </element>
-  <element name="Breaker" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_BREAKER">
+  <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -78,7 +78,7 @@
       <set name="weapon">Warhammer</set>
     </setters>
   </element>
-  <element name="Exalted Shade" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
+  <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
@@ -103,7 +103,7 @@
       <set name="weapon">Scimitar</set>
     </setters>
   </element>
-  <element name="Exalted Shine" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
+  <element name="Exalted Shine" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
@@ -128,7 +128,7 @@
       <set name="weapon">Scimitar</set>
     </setters>
   </element>
-  <element name="Awakened Endrian Blade" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
+  <element name="Awakened Endrian Blade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>A lightweight shortsword made with an ashen wood handle, a glowing endrian steel blade and an endrian eye in its hilt</p>
@@ -152,7 +152,7 @@
       <set name="weapon">Shortsword</set>
     </setters>
   </element>
-  <element name="Black Death" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_BLACK_DEATH">
+  <element name="Black Death" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BLACK_DEATH">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This midnight black revolver has an unsettling darkness to it - even though it never gets dirty, always maintaining a pristine polished appearance, light refuses to reflect off its surface. Upon closer inspection, its mechanisms make no sense at all - its cylinder has no chambers for holding cartridges, and there is no way to load it.</p>
@@ -173,7 +173,7 @@
       <set name="weapon">Revolver</set>
     </setters>
   </element>
-  <element name="Quickdraw Revolver" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
+  <element name="Quickdraw Revolver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
     <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This revolver, while not intelligent per se, has a strong instinctual sense that responds to danger. When combat is about to begin, it compels its user to draw the gun and fire. Whenever you roll for initiative, or at the start of a surprise round, you may instantly make one weapon attack with this revolver. This bonus attack deals one extra die of damage if it hits (2d10).</p>
@@ -195,7 +195,7 @@
       <!--  <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set>  -->
     </setters>
   </element>
-  <element name="Railgun" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_RAILGUN_PISTOL">
+  <element name="Railgun" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RAILGUN_PISTOL">
     <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL</supports>
     <description>
       <p>This magic weapon accelerates any small metal object (weighing no more than ¼ lb.) using magically powered magnets. It is a martial ranged weapon with the following statistics.</p>
