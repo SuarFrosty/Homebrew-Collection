@@ -17,6 +17,7 @@
       <set name="weight" lb="0">0 lb.</set>
       <set name="slot">neck</set>
       <set name="armor">Light</set>
+      <set name="equippable">true</set>
       <set name="armorClass">0</set>
       <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
     </setters>
@@ -64,6 +65,7 @@
       <set name="slot">neck</set>
       <set name="type">Armor</set>
       <set name="armor">Cloak</set>
+      <set name="equippable">true</set>
       <set name="attunement">true</set>
     </setters>
     <rules>
@@ -96,10 +98,42 @@
       <set name="slot">neck</set>
       <set name="type">Armor</set>
       <set name="armor">Cloak</set>
+      <set name="equippable">true</set>
       <set name="attunement">true</set>
     </setters>
   </element>
   <element name="Ring of Stars" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RING_OF_STARS">
     <description>
+      <p>This decorative silver band has a speckled obsidian stone embedded in it.
+While attuned to this ring, the wearer is proficient with the Patchwork Dagger, a weapon made specifically for Saint Emmett that was too oddly shaped for anyone else to wield. In addition, the wearer can cast the greater restoration spell once. Once this property of the ring has been used, it cannot be used again until the next dawn.</p>
+      <p>The Ring of Stars has the following properties:</p>
+      <ul>
+        <li>While attuned to the artifact, you have resistance against fire damage</li>
+        <li>While attuned to the artifact, you gain proficiency in Medicine</li>
+        <li>While attuned to the artifact, increase your constitution by 2, to a maximum of 24</li>
+        <li>While attuned to the artifact, you have disadvantage on saving throws against poison</li>
+        <li>While attuned to the artifact, all holy water within 10 ft of you is destroyed</li>
+      </ul>
+      </p>
+      <p>Destroying the Ring of Stars. This ring can only be destroyed by piercing it with the Patchwork Dagger, which will result in both items disintegrating into worthless dust.</p>
     </description>
+    <sheet>
+      <description>You have disadvantage on saving throws against poison.</description>
+    </sheet>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1</set>
+      <set name="rarity">Artifact</set>
+      <set name="type">Ring</set>
+      <set name="equippable">true</set>
+      <set name="slot">Ring</set>
+      <set name="attunement">true</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE"/>
+      <stat name="constitution" value="2"/>
+    </rules>
+  </element>
 </elements>
