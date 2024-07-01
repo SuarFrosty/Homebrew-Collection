@@ -280,4 +280,5 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <state name="ac:misc" value="1"/>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
     </rules>
+  </element>
 </elements>
