@@ -2,11 +2,11 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
-  <element name="Hero Shield" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
+  <element name="Hero Shield" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
     <description>
       <p>A large, blood-red shield, with bony spikes along the top and sides and a skull of the same material on the front. When wielded, you gain +3 AC.</p>
       <p>While attuned, you also gain resistance to piercing, slashing, and bludgeoning damage.</p>
@@ -27,7 +27,7 @@
       <stat name="ac:Hero Shield" value="3"/>
     </rules>
   </element>
-  <element name="Necrolight" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_NECROLIGHT">
+  <element name="Necrolight" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_NECROLIGHT">
     <description>
       <p>The personal cloak of Death. This cloak melts into the shadows when worn. When you wear this cloak you have advantage on Dexterity (Stealth) checks. Your Dexterity also increases to 26 if not already.</p>
       <p>As a cloak of Death, your connection with death makes you continuously harder to dispatch, your AC has been increased to 25 if not already.</p>
@@ -51,7 +51,7 @@
       <stat name="dexterity" setvalue="26" alt="Necrolight"/>
     </rules>
   </element>
-  <element name="Robe of Shadows" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
+  <element name="Robe of Shadows" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
     <description>
       <p>When Vorinthar was chosen as the first Reaper, he crafted himself a special pair of robes to impersonate Death itself. The robes are black without a hood, and made of pure shadow.</p>
       <p>Death's Blessing: If you die while wearing the Robe of Shadows, the robes vanish and you regain 10 hit points.</p>
