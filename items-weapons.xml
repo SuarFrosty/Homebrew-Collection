@@ -7,14 +7,16 @@
     </update>
   </info>
   <!-- martial -->
-  <element name="Misc" type="Weapon" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_MISC">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
-    <description>Various miscellaneous weapons that don't quite fit into other categories</description>
+  <element name="Animated Sand" type="Weapon" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_MISC">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <description>I had to make this a whole fucking thing so the thing would fucking work</description>
     <setters>
       <set name="category">Weapons</set>
       <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="N/A">N/A</set>
+      <set name="weight" lb="0">0</set>
       <set name="slot">onehand</set>
+      <set name="range">10</set>
+      <set name="damage" type="bludgeoning, slashing, piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
   </element>
@@ -43,11 +45,11 @@
       <set name="weight" lb="N/A">N/A</set>
       <set name="slot">onehand</set>
       <set name="range">10</set>
-      <set name="type" addition="Misc">Weapon</set>
+      <set name="type" addition="Animated Sand">Weapon</set>
       <set name="damage" type="bludgeoning, slashing, piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
       <set name="attunement">true</set>
-      <set name="weapon">Misc</set>
+      <set name="weapon">Animated Sand</set>
     </setters>
   </element>
   <element name="Breaker" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_BREAKER">
