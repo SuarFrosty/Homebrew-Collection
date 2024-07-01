@@ -141,8 +141,21 @@
       <grant type="Property" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN"/>
     </rules>
   </element>
-  <element name="Black Death" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BLACK_DEATH">
+  <element name="Black Death" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_DEATHLY">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="rarity">N/A</set>
+      <set name="slot">onehand</set>
+      <set name="range">300</set>
+      <set name="type">Weapon</set>
+      <set name="damage" type="piercing">10d10</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
+    </setters>
+  </element>
+  <element name="Black Death" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BLACK_DEATH">
     <description>
       <p>This midnight black revolver has an unsettling darkness to it - even though it never gets dirty, always maintaining a pristine polished appearance, light refuses to reflect off its surface. Upon closer inspection, its mechanisms make no sense at all - its cylinder has no chambers for holding cartridges, and there is no way to load it.</p>
       <p>Death Shot. While you are wielding Black Death, you can use your action to fire it. When you do so, a 300-foot long line of black energy that is 1 foot wide erupts from the gun, tearing apart everything in its path. All nonmagical objects are automatically obliterated. Magical objects that are not artifacts are disabled for one minute as if it was within an antimagic field. All creatures in the line must make a DC 20 Dexterity saving throw. They take 10d10 force damage on a failed save, or half as much on a successful one. If this damage reduces a target to 0 hit points, it is destroyed, leaving no remains. After you fire black death, it continually smokes for 1 minute, during which it cannot be fired again.</p>
@@ -152,25 +165,10 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="slot">onehand</set>
-      <set name="range">300</set>
       <set name="type">Weapon</set>
-      <set name="damage" type="piercing">10d10</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
       <set name="attunement">true</set>
-      <set name="weapon">Hand Cannon</set>
+      <set name="weapon">Black Death</set>
     </setters>
-    <rules>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-      <stat name="misc:dice" value="10"/>
-    </rules>
   </element>
   <element name="Quickdraw Revolver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
     <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
