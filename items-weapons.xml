@@ -161,15 +161,15 @@
       <set name="weapon">Hand Cannon</set>
     </setters>
     <rules>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
-      <stat name="dice" value:1d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
+      <stat name="dice" value:d10/>
       </rules>
   </element>
   <element name="Quickdraw Revolver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
