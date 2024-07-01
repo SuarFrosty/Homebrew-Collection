@@ -50,6 +50,7 @@
     </setters>
   </element>
   <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
       <p>It has the thrown property with a normal range of 100 feet and a long range of 300 feet.</p>
@@ -58,20 +59,22 @@
     </description>
     <setters>
       <set name="keywords">warhammer</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Breaker</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
       <set name="range">100/300</set>
       <set name="rarity">Legendary</set>
-      <set name="type" addition="warhammer">Weapon</set>
+      <set name="damage" type="bludgeoning">1d8</set>
+      <set name="versatile">1d10</set>
+      <set name="type">Weapon</set>
       <set name="enhancement">3</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
       <set name="attunement">true</set>
       <set name="weapon">Warhammer</set>
     </setters>
     <rules>
-      <grant type="Property" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN"/>
+      <set name="ID_INTERNAL_WEAPON_PROPERTY_THROWN" bonus="Breaker"/>
     </rules>
   </element>
   <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
