@@ -25,9 +25,9 @@
     </setters>
     <rules>
       <stat name="ac:shield" value="1" bonus="enhancement"/>
-      <grant type="Condition" id-"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING"/>
-      <grant type="Condition" id-"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING"/>
-      <grant type="Condition" id-"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING"/>
     </rules>
   </element>
   <element name="Necrolight" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_NECROLIGHT">
