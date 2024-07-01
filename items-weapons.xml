@@ -8,9 +8,18 @@
   </info>
   <!-- martial -->
   <element name="Misc" type="Weapon" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_MISC">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
+    <description>Various miscellaneous weapons that don't quite fit into other categories</description>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="N/A">N/A</set>
+      <set name="slot">onehand</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</SET>
+      </setters>
   </element>
   <element name="Animated Sand" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ANIMATED_SAND">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
     <description>
       <p>The Living Sands are ancient magic with a will of their own, allowing merchants to traverse its expanses or snuffing them out with storm and choking dust seemingly on a whim. Once attuned to this sand, it will obey you until you fail three death saves or you un-attune to it. You can use it to make a ranged attack against a single creature 10 feet away using Strength or Dexterity, dealing 1d10 Bludgeoning, Slashing, or Piercing damage.</p>
       <p>Blinding Sand - Whenever you hit a creature with Living Sand, you may use a bonus action to turn it into a blinding blast. The target must make a Constitution saving throw or be blinded until the start of their next turn. This can be done 3 times and then cannot be done again until you take a long rest.</p>
@@ -28,6 +37,7 @@
       </p>
     </description>
     <setters>
+      <set name="keywords">animated, sand</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="N/A">N/A</set>
@@ -36,10 +46,12 @@
       <set name="type" addition="Misc">Weapon</set>
       <set name="damage" type="bludgeoning, slashing, piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Misc</set>
     </setters>
   </element>
   <element name="Breaker" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_BREAKER">
-    <supports>ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
       <p>It has the thrown property with a normal range of 100 feet and a long range of 300 feet.</p>
@@ -47,6 +59,7 @@
       <p>Furthermore, you can make one attack with it as a bonus action on each of your turns. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</p>
     </description>
     <setters>
+      <set name="keywords">warhammer</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
@@ -57,10 +70,12 @@
       <set name="versatile">1d10</set>
       <set name="enhancement">3</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Warhammer</set>
     </setters>
   </element>
   <element name="Exalted Shade" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
-    <supports>ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -68,6 +83,7 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
+      <set name="keywords">Scimitar</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
@@ -78,10 +94,12 @@
       <set name="damage" type="necrotic">3d4</set>
       <set name="enhancement">3</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Scimitar</set>
     </setters>
   </element>
   <element name="Exalted Shine" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
-    <supports>ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -89,6 +107,7 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
+      <set name>="keywords">Scimitar</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
@@ -99,10 +118,12 @@
       <set name="damage" type="radiant">3d4</set>
       <set name="enhancement">3</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Scimitar</set>
     </setters>
   </element>
   <element name="Awakened Endrian Blade" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
-    <supports>ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>A lightweight shortsword made with an ashen wood handle, a glowing endrian steel blade and an endrian eye in its hilt</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -110,6 +131,7 @@
       <p>When you get a critical hit with this weapons throwing ability instead of 2x the damage or dice its 3x.</p>
     </description>
     <setters>
+      <set name="keywords">shortsword</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
@@ -119,16 +141,19 @@
       <set name="damage" type="piercing">1d6</set>
       <set name="enhancement">3</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Shortsword</set>
     </setters>
   </element>
   <!--  firearm  -->
   <element name="Black Death" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_BLACK_DEATH">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This midnight black revolver has an unsettling darkness to it - even though it never gets dirty, always maintaining a pristine polished appearance, light refuses to reflect off its surface. Upon closer inspection, its mechanisms make no sense at all - its cylinder has no chambers for holding cartridges, and there is no way to load it.</p>
       <p>Death Shot. While you are wielding Black Death, you can use your action to fire it. When you do so, a 300-foot long line of black energy that is 1 foot wide erupts from the gun, tearing apart everything in its path. All nonmagical objects are automatically obliterated. Magical objects that are not artifacts are disabled for one minute as if it was within an antimagic field. All creatures in the line must make a DC 20 Dexterity saving throw. They take 10d10 force damage on a failed save, or half as much on a successful one. If this damage reduces a target to 0 hit points, it is destroyed, leaving no remains. After you fire black death, it continually smokes for 1 minute, during which it cannot be fired again.</p>
     </description>
     <setters>
+      <set name="keywords">firearm, revolver, gun</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
@@ -137,14 +162,17 @@
       <set name="type" addition="revolver">Weapon</set>
       <set name="damage" type="piercing">10d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Revolver</set>
     </setters>
   </element>
   <element name="Quickdraw Revolver" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This revolver, while not intelligent per se, has a strong instinctual sense that responds to danger. When combat is about to begin, it compels its user to draw the gun and fire. Whenever you roll for initiative, or at the start of a surprise round, you may instantly make one weapon attack with this revolver. This bonus attack deals one extra die of damage if it hits (2d10).</p>
     </description>
     <setters>
+      <set name="keywords">firearm, revovler, gun</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
@@ -153,6 +181,8 @@
       <set name="type" addition="revolver">Weapon</set>
       <set name="damage" type="piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Revolver</set>
       <set name="reload">6</set>
       <!--  <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set>  -->
     </setters>
@@ -166,6 +196,7 @@
       <p>Magically Enhanced. If you have spell slots, you can expend one when you attack with this weapon. It deals an additional 1d8 damage for each level of spell slot you expend.</p>
     </description>
     <setters>
+      <set name="keywords">firearm, revolver, gun</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5">5 lb.</set>
@@ -175,6 +206,7 @@
       <set name="damage" type="special">1d8</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
       <set name="reload">1</set>
+      <set name="weapon">Revolver</set>
     </setters>
   </element>
 </elements>
