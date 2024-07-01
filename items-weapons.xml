@@ -43,6 +43,7 @@
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="N/A">N/A</set>
+      <set name="rarity">Artifact</set>
       <set name="slot">onehand</set>
       <set name="range">10 ft</set>
       <set name="type" addition="Animated Sand">Weapon</set>
@@ -67,6 +68,7 @@
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
       <set name="range">100/300</set>
+      <set name="rarity">Legendary</set>
       <set name="type" addition="warhammer">Weapon</set>
       <set name="damage" type="bludgeoning">1d8</set>
       <set name="versatile">1d10</set>
@@ -91,6 +93,7 @@
       <set name="weight" lb="3">3 lb.</set>
       <set name="slot">onehand</set>
       <set name="range">5 ft</set>
+      <set name="rarity">Artifact</set>
       <set name="type" addition="Scimitar">Weapon</set>
       <set name="damage" type="slashing">1d6</set>
       <set name="damage" type="necrotic">3d4</set>
@@ -115,6 +118,7 @@
       <set name="weight" lb="3">3 lb.</set>
       <set name="slot">onehand</set>
       <set name="range">5 ft</set>
+      <set name="rarity">Artifact</set>
       <set name="type" addition="scimitar">Weapon</set>
       <set name="damage" type="slashing">1d6</set>
       <set name="damage" type="radiant">3d4</set>
@@ -138,6 +142,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
+      <set name="rarity">Artifact</set>
       <set name="range">60</set>
       <set name="type" addition="shortsword">Weapon</set>
       <set name="damage" type="piercing">1d6</set>
@@ -147,7 +152,6 @@
       <set name="weapon">Shortsword</set>
     </setters>
   </element>
-  <!--  firearm  -->
   <element name="Black Death" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_BLACK_DEATH">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
@@ -159,6 +163,7 @@
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
+      <set name="rarity">Artifact</set>
       <set name="slot">onehand</set>
       <set name="range">300</set>
       <set name="type" addition="revolver">Weapon</set>
@@ -179,6 +184,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
+      <set name="rarity">Rare</set>
       <set name="range">40/120</set>
       <set name="type" addition="revolver">Weapon</set>
       <set name="damage" type="piercing">1d10</set>
@@ -202,6 +208,7 @@
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5">5 lb.</set>
+      <set name="rarity">Rare</set>
       <set name="slot">onehand</set>
       <set name="range">100/400</set>
       <set name="type" addition="revolver">Weapon</set>
