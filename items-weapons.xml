@@ -49,7 +49,7 @@
       <set name="weapon">Animated Sand</set>
     </setters>
   </element>
-  <element name="Breaker" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
+  <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
