@@ -170,7 +170,7 @@
       <stat name="misc:dice" value="10"/>
       <stat name="misc:dice" value="10"/>
       <stat name="misc:dice" value="10"/>
-      </rules>
+    </rules>
   </element>
   <element name="Quickdraw Revolver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
     <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
