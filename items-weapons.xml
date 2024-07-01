@@ -48,7 +48,7 @@
       <set name="attunement">true</set>
       <set name="weapon">Animated Sand</set>
     </setters>
-</element>
+  </element>
   <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
