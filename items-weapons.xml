@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.7">
+    <update version="0.0.8">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -42,7 +42,7 @@
       <set name="keywords">animated, sand</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="N/A">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">onehand</set>
       <set name="range">10 ft</set>
