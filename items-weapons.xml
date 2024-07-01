@@ -15,7 +15,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="N/A">N/A</set>
       <set name="slot">onehand</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</SET>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
       </setters>
   </element>
   <element name="Animated Sand" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ANIMATED_SAND">
