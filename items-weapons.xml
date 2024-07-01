@@ -15,7 +15,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0</set>
       <set name="slot">onehand</set>
-      <set name="range">10</set>
+      <set name="range">10 ft</set>
       <set name="damage" type="bludgeoning, slashing, piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
@@ -44,7 +44,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="N/A">N/A</set>
       <set name="slot">onehand</set>
-      <set name="range">10</set>
+      <set name="range">10 ft</set>
       <set name="type" addition="Animated Sand">Weapon</set>
       <set name="damage" type="bludgeoning, slashing, piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
@@ -190,7 +190,7 @@
     </setters>
   </element>
   <element name="Railgun" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_RAILGUN_PISTOL">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL</supports>
+    <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL</supports>
     <description>
       <p>This magic weapon accelerates any small metal object (weighing no more than ¼ lb.) using magically powered magnets. It is a martial ranged weapon with the following statistics.</p>
       <p>Special Ammunition. Common pieces of ammunition are coins (slashing damage), sling bullets or lumps of ore (bludgeoning damage), arrow heads, darts or pitons (piercing damage).</p>
@@ -205,7 +205,7 @@
       <set name="slot">onehand</set>
       <set name="range">100/400</set>
       <set name="type" addition="revolver">Weapon</set>
-      <set name="damage" type="special">1d8</set>
+      <set name="damage" type="bludgeoning, slashing, piercing">1d8</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
       <set name="reload">1</set>
       <set name="weapon">Revolver</set>
