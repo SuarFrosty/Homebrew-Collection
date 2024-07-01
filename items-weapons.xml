@@ -107,7 +107,7 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
-      <set name>="keywords">Scimitar</set>
+      <set name="keywords">Scimitar</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
