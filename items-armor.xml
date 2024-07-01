@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Armor</name>
+    <update version="0.0.4">
+      <file name="items-armor.xml"/>
+    </update>
+  </info>
+  <!-- shield -->
+  <element name="Hero Shield" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
+    <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD&amp; ID_INTERNAL_WEAPON_PROPERTY_LEGENDARY&amp; ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <description>
+      <p>A large, blood-red shield, with bony spikes along the top and sides and a skull of the same material on the front. When wielded, you gain +3 AC.</p>
+      <p>While attuned, you also gain resistance to piercing, slashing, and bludgeoning damage.</p>
+      <p>If a creature within 50 ft of you that you can see takes damage, you may transfer 1/4 of the damage to yourself.</p>
+    </description>
+    <setters>
+      <set name="category">Armor</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="6">6 lb.</set>
+      <set name="slot">onehand,secondary</set>
+      <set name="type">Shield</set>
+      <set name="armor">Shield</set>
+      <set name="armorClass">+3</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+    </setters>
+    <rules>
+      <stat name="ac:shield" value="3" bonus="shield"/>
+    </rules>
+  </element>
+  <!-- light armor -->
+  <element name="Necrolight" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_NECROLIGHT">
+    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT&amp; ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT&amp; ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <description>
+      <p>The personal cloak of Death. This cloak melts into the shadows when worn. When you wear this cloak you have advantage on Dexterity (Stealth) checks. Your Dexterity also increases to 26 if not already.</p>
+      <p>As a cloak of Death, your connection with death makes you continuously harder to dispatch, your AC has been increased to 25 if not already.</p>
+      <p>Since this is a cloak, it does not count as armour, therefore no Dexterity (Stealth) disadvantages will be made against you.</p>
+      <p>You also gain the ability to teleport 200ft in any direction as a bonus action.</p>
+      <p>When a critical hit or surprise attack is made against you, as a reaction, you can choose to evade or make their hit miss altogether.</p>
+      <p>Unkillable: When you die while wearing this cloak, true resurrection will be cast on you once. The cloak regains use of this effect at dusk.</p>
+      <p>Destroying the Necrolight. Cannot be destroyed by any other means than Death himself.</p>
+    </description>
+    <setters>
+      <set name="category">Armor</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="slot">neck</set>
+      <set name="armor">Light</set>
+      <set name="armorClass">25</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" setvalue="26" alt="Necrolight"/>
+    </rules>
+  </element>
+  <element name="Robe of Shadows" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
+    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT&amp; ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT&amp; ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+    <description>
+      <p>When Vorinthar was chosen as the first Reaper, he crafted himself a special pair of robes to impersonate Death itself. The robes are black without a hood, and made of pure shadow.</p>
+      <p>Death's Blessing: If you die while wearing the Robe of Shadows, the robes vanish and you regain 10 hit points.</p>
+      <p>Magical Defense: When hit by magical damage of any kind, Robe of Shadows has an armor class of 18. Otherwise they are 100% translucent and have an armor class of 0.</p>
+      <p>Shadow Cast: Once per day you may choose to activate a 1d6 random magical effect from the list below, recharging each day at dawn.
+      <ul>
+        <li>1: Reroll</li>
+        <li>2: You turn completely invisible for the next 2d4 hours. The spell ends early if you use it just before dawn.</li>
+        <li>3: A Fey creature of your choice, up to a challenge rating of 1, is summoned to obey your will for the next hour. Afterward the Fey vanishes.</li>
+        <li>4: A Fey creature of your choice, up to a challenge rating of 1, is summoned to obey your will for the next hour. Afterward the Fey vanishes.</li>
+        <li>5: You turn 75% transparent for the next 2d4 hours. The spell ends early if you use it just before dawn.</li>
+        <li>6: The robes cast Disguise Self, making yourself -including your clothing, armor, weapons, and other belongings - look different for the next hour.</li>
+      </ul>
+      </p>
+      <p>Destroying The Robe of Shadows: The Robe of Shadows can only be destroyed by Vorinthar himself. If anyone else tries to attempt this feat, the robes vanish.</p>
+    </description>
+    <setters>
+      <set name="category">Armor</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="slot">neck</set>
+      <set name="armor">Light</set>
+      <set name="armorClass">0</set>
+    </setters>
+  </element>
+</elements>
