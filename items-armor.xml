@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.5">
+    <update version="0.0.4">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
