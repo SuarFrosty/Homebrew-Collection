@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.8">
+    <update version="0.0.9">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -17,9 +17,14 @@
       <set name="slot">neck</set>
       <set name="armor">Light</set>
       <set name="armorClass">0</set>
+      <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
     </setters>
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_ADVANTAGE"_/>
+    </rules>
   </element>
   <element name="Hero Shield" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
+    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT_</supports>
     <description>
       <p>A large, blood-red shield, with bony spikes along the top and sides and a skull of the same material on the front. When wielded, you gain +3 AC.</p>
       <p>While attuned, you also gain resistance to piercing, slashing, and bludgeoning damage.</p>
@@ -64,8 +69,7 @@
       <set name="attunement">true</set>
     </setters>
     <rules>
-      <stat name="necrolight:light armor" value="25"/>
-      <stat name="ac:calculation" value="necrolight:light armor" equipped="necrolight:light armor"/>
+      <stat name="ac:armored:armor" value="25"/>
       <stat name="dexterity" value="8"/>
     </rules>
   </element>
