@@ -7,20 +7,20 @@
     </update>
   </info>
   <!-- shield -->
-  <element name="Hero Shield" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
-    <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD, ID_INTERNAL_WEAPON_PROPERTY_LEGENDARY, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+  <element name="Hero Shield" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
     <description>
       <p>A large, blood-red shield, with bony spikes along the top and sides and a skull of the same material on the front. When wielded, you gain +3 AC.</p>
       <p>While attuned, you also gain resistance to piercing, slashing, and bludgeoning damage.</p>
       <p>If a creature within 50 ft of you that you can see takes damage, you may transfer 1/4 of the damage to yourself.</p>
     </description>
     <setters>
-      <set name="category">Armor</set>
+      <set name="category">Magic Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="6">6 lb.</set>
       <set name="slot">onehand,secondary</set>
-      <set name="type">Shield</set>
-      <set name="armor">Shield</set>
+      <set name="type" addition="shield">Armor</set>
+      <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
       <set name="armorClass">+3</set>
       <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
     </setters>
@@ -29,8 +29,8 @@
     </rules>
   </element>
   <!-- light armor -->
-  <element name="Necrolight" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_NECROLIGHT">
-    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+  <element name="Necrolight" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_NECROLIGHT">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
     <description>
       <p>The personal cloak of Death. This cloak melts into the shadows when worn. When you wear this cloak you have advantage on Dexterity (Stealth) checks. Your Dexterity also increases to 26 if not already.</p>
       <p>As a cloak of Death, your connection with death makes you continuously harder to dispatch, your AC has been increased to 25 if not already.</p>
@@ -41,20 +41,20 @@
       <p>Destroying the Necrolight. Cannot be destroyed by any other means than Death himself.</p>
     </description>
     <setters>
-      <set name="category">Armor</set>
+      <set name="category">Magic Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
-      <set name="armor">Light</set>
+      <set name="type">Wondrous Item</set>
       <set name="armorClass">25</set>
     </setters>
     <rules>
       <stat name="dexterity" setvalue="26" alt="Necrolight"/>
     </rules>
   </element>
-  <element name="Robe of Shadows" type="Armor" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
-    <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_ARTIFACT, ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
+  <element name="Robe of Shadows" type="Magic Item" source="D&amp;D Wiki" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_REQUIRES_ATTUNEMENT</supports>
     <description>
       <p>When Vorinthar was chosen as the first Reaper, he crafted himself a special pair of robes to impersonate Death itself. The robes are black without a hood, and made of pure shadow.</p>
       <p>Death's Blessing: If you die while wearing the Robe of Shadows, the robes vanish and you regain 10 hit points.</p>
@@ -72,13 +72,12 @@
       <p>Destroying The Robe of Shadows: The Robe of Shadows can only be destroyed by Vorinthar himself. If anyone else tries to attempt this feat, the robes vanish.</p>
     </description>
     <setters>
-      <set name="category">Armor</set>
+      <set name="category">Magic Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
-      <set name="armor">Light</set>
-      <set name="armorClass">0</set>
+      <set name="type">Wondrous Item</set>
     </setters>
   </element>
 </elements>
