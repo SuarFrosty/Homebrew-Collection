@@ -131,6 +131,7 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       <set name="attunement">true</set>
     </setters>
     <rules>
+      <state name="ac:misc" value="1"/>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
       <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE"/>
       <stat name="constitution" value="2"/>
