@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -20,11 +20,14 @@
       <set name="rarity">Legendary</set>
       <set name="type" addition="shield">Armor</set>
       <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
-      <set name="armorClass">+3</set>
+      <set name="enhancement">1</set>
       <set name="attunement">true</set>
     </setters>
     <rules>
-      <stat name="ac:Hero Shield" value="3"/>
+      <stat name="ac:shield" value="1" bonus="enhancement"/>
+      <grant type="Condition" id-"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING"/>
+      <grant type="Condition" id-"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING"/>
+      <grant type="Condition" id-"ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING"/>
     </rules>
   </element>
   <element name="Necrolight" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_NECROLIGHT">
@@ -44,11 +47,12 @@
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
       <set name="type">Wondrous Items</set>
-      <set name="armorClass">25</set>
       <set name="attunement">true</set>
     </setters>
     <rules>
-      <stat name="dexterity" setvalue="26" alt="Necrolight"/>
+      <stat name="necrolight:light armor" value="25"/>
+      <stat name="ac:calculation" value="necrolight:light armor" equipped="necrolight:light armor"/>
+      <stat name="dexterity" value="8"/>
     </rules>
   </element>
   <element name="Robe of Shadows" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
