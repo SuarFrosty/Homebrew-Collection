@@ -38,12 +38,12 @@
       <p>Destroying the Necrolight. Cannot be destroyed by any other means than Death himself.</p>
     </description>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="armorClass">25</set>
       <set name="attunement">true</set>
     </setters>
@@ -69,12 +69,12 @@
       <p>Destroying The Robe of Shadows: The Robe of Shadows can only be destroyed by Vorinthar himself. If anyone else tries to attempt this feat, the robes vanish.</p>
     </description>
     <setters>
-      <set name="category">Wondrous Item</set>
+      <set name="category">Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
-      <set name="type">Wondrous Item</set>
+      <set name="type">Wondrous Items</set>
       <set name="attunement">true</set>
     </setters>
   </element>
