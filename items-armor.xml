@@ -2,13 +2,14 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.9">
+    <update version="0.1.0">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
   <element name="Cloak" type="Armor" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_CLOAK">
     <description>
       <p>Cloaks, often donned by rogues and dark wizards, many people wear these as a means to hide their identity, but a select few have the privilege to obtain one with magical powers.</p>
+      <p>Wearing a cloak grants no additional AC, but does grant you advantage on Dexterity(Stealth) rolls.</p>
     </description>
     <setters>
       <set name="category">Armor</set>
@@ -20,7 +21,7 @@
       <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
     </setters>
     <rules>
-      <grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_ADVANTAGE"_/>
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_ADVANTAGE"/>
     </rules>
   </element>
   <element name="Hero Shield" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
