@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.1.0">
+    <update version="0.1.1">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -20,7 +20,7 @@
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
   </element>
-  <element name="Animated Sand" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ANIMATED_SAND">
+  <element name="Animated Sand" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ANIMATED_SAND"/>
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
     <description>
       <p>The Living Sands are ancient magic with a will of their own, allowing merchants to traverse its expanses or snuffing them out with storm and choking dust seemingly on a whim. Once attuned to this sand, it will obey you until you fail three death saves or you un-attune to it. You can use it to make a ranged attack against a single creature 10 feet away using Strength or Dexterity, dealing 1d10 Bludgeoning, Slashing, or Piercing damage.</p>
