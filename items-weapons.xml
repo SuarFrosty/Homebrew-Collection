@@ -7,7 +7,7 @@
     </update>
   </info>
   <!-- martial -->
-  <element name="Animated Sand" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MISC">
+  <element name="Animated Sand" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_SANDY">
     <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
     <description>I had to make this a whole fucking thing so the thing would fucking work</description>
     <setters>
@@ -39,22 +39,17 @@
       </p>
     </description>
     <setters>
-      <set name="keywords">animated, sand</set>
+      <set name="keywords">animated sand</set>
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="slot">onehand</set>
-      <set name="range">10 ft</set>
       <set name="type" addition="Animated Sand">Weapon</set>
-      <set name="damage" type="bludgeoning, slashing, piercing">1d10</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
       <set name="attunement">true</set>
       <set name="weapon">Animated Sand</set>
     </setters>
   </element>
   <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
       <p>It has the thrown property with a normal range of 100 feet and a long range of 300 feet.</p>
@@ -70,13 +65,14 @@
       <set name="range">100/300</set>
       <set name="rarity">Legendary</set>
       <set name="type" addition="warhammer">Weapon</set>
-      <set name="damage" type="bludgeoning">1d8</set>
-      <set name="versatile">1d10</set>
       <set name="enhancement">3</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
       <set name="attunement">true</set>
       <set name="weapon">Warhammer</set>
     </setters>
+    <rules>
+      <grant type="Property" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN"/>
+    </rules>
   </element>
   <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
