@@ -39,12 +39,11 @@
       </p>
     </description>
     <setters>
-      <set name="keywords">animated sand</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="type" addition="Animated Sand">Weapon</set>
+      <set name="type">Weapon</set>
       <set name="attunement">true</set>
       <set name="weapon">Animated Sand</set>
     </setters>
@@ -58,7 +57,7 @@
       <p>Furthermore, you can make one attack with it as a bonus action on each of your turns. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</p>
     </description>
     <setters>
-      <set name="category">Breaker</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
@@ -72,6 +71,9 @@
       <set name="attunement">true</set>
       <set name="weapon">Warhammer</set>
     </setters>
+    <rules>
+      <grant type="Property" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN"/>
+    </rules>
   </element>
   <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
@@ -82,12 +84,9 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
-      <set name="keywords">scimitar</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
-      <set name="slot">onehand</set>
-      <set name="range">5 ft</set>
       <set name="rarity">Artifact</set>
       <set name="type" addition="Scimitar">Weapon</set>
       <set name="damage" type="slashing">1d6</set>
@@ -107,11 +106,9 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
-      <set name="keywords">scimitar</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
-      <set name="slot">onehand</set>
       <set name="rarity">Artifact</set>
       <set name="type" addition="scimitar">Weapon</set>
       <set name="damage" type="slashing">1d6</set>
@@ -122,7 +119,6 @@
     </setters>
   </element>
   <element name="Awakened Endrian Blade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>
       <p>A lightweight shortsword made with an ashen wood handle, a glowing endrian steel blade and an endrian eye in its hilt</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -134,7 +130,6 @@
       <set name="category">Magic Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
-      <set name="slot">onehand</set>
       <set name="rarity">Artifact</set>
       <set name="range">60</set>
       <set name="type" addition="shortsword">Weapon</set>
@@ -153,19 +148,29 @@
       <p>Death Shot. While you are wielding Black Death, you can use your action to fire it. When you do so, a 300-foot long line of black energy that is 1 foot wide erupts from the gun, tearing apart everything in its path. All nonmagical objects are automatically obliterated. Magical objects that are not artifacts are disabled for one minute as if it was within an antimagic field. All creatures in the line must make a DC 20 Dexterity saving throw. They take 10d10 force damage on a failed save, or half as much on a successful one. If this damage reduces a target to 0 hit points, it is destroyed, leaving no remains. After you fire black death, it continually smokes for 1 minute, during which it cannot be fired again.</p>
     </description>
     <setters>
-      <set name="keywords">firearm, revolver, gun</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">onehand</set>
       <set name="range">300</set>
-      <set name="type" addition="revolver">Weapon</set>
+      <set name="type">Weapon</set>
       <set name="damage" type="piercing">10d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
       <set name="attunement">true</set>
-      <set name="weapon">Revolver</set>
+      <set name="weapon">Hand Cannon</set>
     </setters>
+    <rules>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      <stat name="dice" value:"10"/>
+      </rules>
   </element>
   <element name="Quickdraw Revolver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
     <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
@@ -173,20 +178,16 @@
       <p>This revolver, while not intelligent per se, has a strong instinctual sense that responds to danger. When combat is about to begin, it compels its user to draw the gun and fire. Whenever you roll for initiative, or at the start of a surprise round, you may instantly make one weapon attack with this revolver. This bonus attack deals one extra die of damage if it hits (2d10).</p>
     </description>
     <setters>
-      <set name="keywords">firearm, revovler, gun</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
       <set name="rarity">Rare</set>
-      <set name="range">40/120</set>
-      <set name="type" addition="revolver">Weapon</set>
+      <set name="type">Weapon</set>
       <set name="damage" type="piercing">1d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
       <set name="attunement">true</set>
-      <set name="weapon">Revolver</set>
-      <set name="reload">6</set>
-      <!--  <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set>  -->
+      <set name="weapon">Hand Cannon</set>
     </setters>
   </element>
   <element name="Railgun" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RAILGUN_PISTOL">
@@ -198,18 +199,87 @@
       <p>Magically Enhanced. If you have spell slots, you can expend one when you attack with this weapon. It deals an additional 1d8 damage for each level of spell slot you expend.</p>
     </description>
     <setters>
-      <set name="keywords">firearm, revolver, gun</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5">5 lb.</set>
       <set name="rarity">Rare</set>
       <set name="slot">onehand</set>
       <set name="range">100/400</set>
-      <set name="type" addition="revolver">Weapon</set>
+      <set name="type">Weapon</set>
       <set name="damage" type="bludgeoning, slashing, piercing">1d8</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
       <set name="reload">1</set>
-      <set name="weapon">Revolver</set>
+      <set name="weapon">Heavy Pistol</set>
     </setters>
   </element>
+  <element name="Dagger of Memories" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_DAGGER_OF_MEMORIES">
+    <description>
+      <p>This dagger is 15 inches long from the hilt to the tip. the blade itself is a milky white color and is extremely sharp double edged blade (or single edged, the blade comes in many shapes). You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+      <p>The Dagger of Memories has the following properties:
+        <ul>
+          <li>While attuned to the artifact, you cannot be charmed or frightened</li>
+          <li>While attuned to the artifact, your walking speed increases by 10 ft.</li>
+          <li>While attuned to the artifact, nonmagical flames are extinguished within 30 ft of you</li>
+          <li>Creatures with a challenge rating of 0, as well as plants that aren't creatures, drop to 0 hit points when within 10ft of the artifact</li>
+        </ul>
+      </p>
+      <p>While this weapon is in your possession, you have proficiency on Stealth checks. If you already have proficiency in Stealth, double your proficiency bonus.</p>
+      <p>Memory Sleuth: Upon slicing a target, wielder gains the memories of the last 2 hours of the target. The target cannot resist their memories being taken through their blood as long as they are alive. This feature does not affect undead creatures.</p>
+      <p>Absorb Memories: If an attack from the Dagger of Memories brings a creature to 0 hit points, all blood is drunk by the dagger and all the target's memories since birth are stored in the blade. The wielder must make a Wisdom save (DC 14) when this happens or be taken over for 12 hours as they are overwhelmed by the memories they have stolen.</p>
+      <p>Recall: If the dagger is merely plunged into a target and drawn immediately, then wielder gains the memories of the target from the last 2 days. But this is all at the DM'S discretion as to how long ago in the targets past the blade sees from drinking their blood, and how much blood is required. Also up to the DM is how long the memories stay intact inside the blade.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>Memory Sleuth: Upon slicing a target, wielder gains the memories of the last 2 hours of the target. The target cannot resist their memories being taken through their blood as long as they are alive. This feature does not affect undead creatures.</p>
+        <p>Absorb Memories: If an attack from the Dagger of Memories brings a creature to 0 hit points, all blood is drunk by the dagger and all the target's memories since birth are stored in the blade. The wielder must make a Wisdom save (DC 14) when this happens or be taken over for 12 hours as they are overwhelmed by the memories they have stolen.</p>
+        <p>Recall: If the dagger is merely plunged into a target and drawn immediately, then wielder gains the memories of the target from the last 2 days. But this is all at the DM'S discretion as to how long ago in the targets past the blade sees from drinking their blood, and how much blood is required. Also up to the DM is how long the memories stay intact inside the blade.</p>
+        <p>You have disadvantage on saving throws against spells</p>
+      </description>
+    </sheet>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="enhancement">2</set>
+      <set name="attunement">true</set>
+      <set name="type">Weapon</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_CHARM"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FEAR"/>
+      <stat name="speed" value="10"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
+    </rules>
+  </element>
+  <element name="Patchwork Dagger" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_PATCHWORK_DAGGER">
+    <description>
+      <p>This dagger appears to be made of an amalgamation of various metals welded together with no particular style, making it look like many different daggers were broken up and put back together to make it.
+This dagger's blade is vicious in shape after years of being battered and used and causes deep, painful wounds. Every time this dagger successfully lands a hit, the target takes 1d4 damage at the start of its turn from blood loss, with every additional hit adding another d4 to this damage to a maximum of 10d4 damage.</p>
+      <p>This dagger's handle is oddly shaped and is impossible to be held properly by anyone other than Emmett himself. Anyone who does not wear the Ring of Stars is not considered proficient with this dagger. In addition, this dagger vibrates painfully in the hand of its wielder, giving them disadvantage to hit and gives enemies advantage to disarm the wielder without the ring equipped.</p>
+      <p>The Patchwork Dagger has the following properties:
+        <ul>
+          <li>While attuned to the artifact, you gain a +1 bonus to Armor Class</li>
+          <li>While attuned to the artifact, you have resistance against necrotic damage</li>
+          <li>While attuned to the artifact, you regain 1d6 hit points at the start of your turn if you have at least 1 hit point</li>
+          <li>While attuned to the artifact, you have disadvantage on saving throws against spells</li>
+          <li>While you are attuned to the artifact, your flaw is amplified in a way determined by the DM</li>
+        </ul>
+      </p>
+      <p>Destroying the Patchwork Dagger. This dagger's preservation magic is tied to the Ring of Stars, if this dagger is used on the ring, both items are permanently destroyed via disintegration.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="type">Weapon</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+    <rules>
+      <state name="patchwork dagger:natural armor" value="1"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+    </rules>
 </elements>
