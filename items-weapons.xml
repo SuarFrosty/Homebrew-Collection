@@ -49,8 +49,8 @@
       <set name="weapon">Animated Sand</set>
     </setters>
   </element>
-  <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+  <element name="Breaker" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
       <p>It has the thrown property with a normal range of 100 feet and a long range of 300 feet.</p>
@@ -58,7 +58,6 @@
       <p>Furthermore, you can make one attack with it as a bonus action on each of your turns. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</p>
     </description>
     <setters>
-      <set name="keywords">warhammer</set>
       <set name="category">Breaker</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
@@ -73,9 +72,6 @@
       <set name="attunement">true</set>
       <set name="weapon">Warhammer</set>
     </setters>
-    <rules>
-      <set name="ID_INTERNAL_WEAPON_PROPERTY_THROWN" bonus="Breaker"/>
-    </rules>
   </element>
   <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
