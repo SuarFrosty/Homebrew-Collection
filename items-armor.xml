@@ -20,9 +20,6 @@
       <set name="armorClass">0</set>
       <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
     </setters>
-    <rules>
-      <grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_ADVANTAGE"/>
-    </rules>
   </element>
   <element name="Hero Shield" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT_</supports>
@@ -32,13 +29,13 @@
       <p>If a creature within 50 ft of you that you can see takes damage, you may transfer 1/4 of the damage to yourself.</p>
     </description>
     <setters>
-      <set name="category">Magic Armor</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="6">6 lb.</set>
       <set name="slot">onehand,secondary</set>
       <set name="rarity">Legendary</set>
-      <set name="type" addition="shield">Armor</set>
-      <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+      <set name="type">Armor</set>
+      <set name="armor">Shield</set>
       <set name="enhancement">1</set>
       <set name="attunement">true</set>
     </setters>
@@ -60,13 +57,13 @@
       <p>Destroying the Necrolight. Cannot be destroyed by any other means than Death himself.</p>
     </description>
     <setters>
-      <set name="category">Magic Armor</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
-      <set name="type" addition="cloak">Armor</set>
-      <set name="armor">ID_WOTC_DND_WIKI_CLOAK</set>
+      <set name="type">Armor</set>
+      <set name="armor">Cloak</set>
       <set name="attunement">true</set>
     </setters>
     <rules>
@@ -92,14 +89,17 @@
       <p>Destroying The Robe of Shadows: The Robe of Shadows can only be destroyed by Vorinthar himself. If anyone else tries to attempt this feat, the robes vanish.</p>
     </description>
     <setters>
-      <set name="category">Magic Armor</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
       <set name="slot">neck</set>
-      <set name="type" addition="cloak">Armor</set>
-      <set name="armor">ID_WOTC_DND_WIKI_CLOAK</set>
+      <set name="type">Armor</set>
+      <set name="armor">Cloak</set>
       <set name="attunement">true</set>
     </setters>
   </element>
+  <element name="Ring of Stars" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RING_OF_STARS">
+    <description>
+    </description>
 </elements>
