@@ -3,7 +3,7 @@
   <info>
     <name>Weapons</name>
     <update version="0.0.4">
-      <file name="items-weapons.xml"/>
+      <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
   <!-- martial -->
