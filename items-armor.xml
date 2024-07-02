@@ -78,6 +78,7 @@
     </setters>
     <rules>
       <stat name="ac:armored:enhancement" value="7" bonus="enhancement"/>
+    </rules>
   </element>
   <element name="Robe of Shadows" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
     <description>
