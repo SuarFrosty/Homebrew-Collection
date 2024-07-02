@@ -17,7 +17,7 @@
       <set name="armorClass">25</set>
     </setters>
     <rules>
-      <stat name="ac:armored:armor" value="25"/>
+      <stat name="ac:armored:armor" value="18"/>
     </rules>
   </element>
   <element name="Cloak" type="Armor" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_CLOAK">
@@ -73,8 +73,11 @@
       <set name="slot">neck</set>
       <set name="type">Armor</set>
       <set name="armor">Necrolight</set>
+      <set name="enhancement">7</set>
       <set name="attunement">true</set>
     </setters>
+    <rules>
+      <stat name="ac:armored:enhancement" value="7" bonus="enhancement"/>
   </element>
   <element name="Robe of Shadows" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
     <description>
