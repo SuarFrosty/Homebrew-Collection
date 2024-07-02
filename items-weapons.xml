@@ -8,7 +8,7 @@
   </info>
   <!-- martial -->
   <element name="Animated Sand" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_SANDY">
-    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
     <description>I had to make this a whole fucking thing so the thing would fucking work</description>
     <setters>
       <set name="category">Weapons</set>
@@ -21,7 +21,6 @@
     </setters>
   </element>
   <element name="Animated Sand" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ANIMATED_SAND">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
     <description>
       <p>The Living Sands are ancient magic with a will of their own, allowing merchants to traverse its expanses or snuffing them out with storm and choking dust seemingly on a whim. Once attuned to this sand, it will obey you until you fail three death saves or you un-attune to it. You can use it to make a ranged attack against a single creature 10 feet away using Strength or Dexterity, dealing 1d10 Bludgeoning, Slashing, or Piercing damage.</p>
       <p>Blinding Sand - Whenever you hit a creature with Living Sand, you may use a bonus action to turn it into a blinding blast. The target must make a Constitution saving throw or be blinded until the start of their next turn. This can be done 3 times and then cannot be done again until you take a long rest.</p>
@@ -48,8 +47,20 @@
       <set name="weapon">Animated Sand</set>
     </setters>
   </element>
+  <element name="Breaker" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKED">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_HAMMERS, ID_WEAPON_CATEGORY_MARTIAL_MELEE</supports>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="slot">onehand</set>
+      <set name="range">5 ft, 100/300</set>
+      <set name="damage" type="bludgeoning">1d8</set>
+      <set name="versatile">1d10</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
+    </setters>
+  </element>
   <element name="Breaker" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_BREAKER">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE</supports>
     <description>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
       <p>It has the thrown property with a normal range of 100 feet and a long range of 300 feet.</p>
@@ -60,23 +71,40 @@
       <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
-      <set name="slot">onehand</set>
-      <set name="range">100/300</set>
       <set name="rarity">Legendary</set>
-      <set name="damage" type="bludgeoning">1d8</set>
-      <set name="versatile">1d10</set>
       <set name="type">Weapon</set>
       <set name="enhancement">3</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER</set>
       <set name="attunement">true</set>
-      <set name="weapon">Warhammer</set>
+      <set name="weapon">Breaker</set>
     </setters>
-    <rules>
-      <grant type="Property" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN"/>
-    </rules>
   </element>
+  <element name="Exalted Shade" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHUNNY">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="range">5 ft</set>
+      <set name="slot">onehand</set>
+      <set name="damage" type="slashing">1d6</set>
+      <set name="damage" type="necrotic">3d4</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR</set>
+    </setters>
+  </element
+  <element name="Exalted Shine" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHANNY">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="range">5 ft</set>
+      <set name="slot">onehand</set>
+      <set name="damage" type="slashing">1d6</set>
+      <set name="damage" type="radiant">3d4</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR</set>
+    </setters>
+  </element
   <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -88,17 +116,13 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="type" addition="Scimitar">Weapon</set>
-      <set name="damage" type="slashing">1d6</set>
-      <set name="damage" type="necrotic">3d4</set>
+      <set name="type">Weapon</set>
       <set name="enhancement">3</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE</set>
       <set name="attunement">true</set>
-      <set name="weapon">Scimitar</set>
+      <set name="weapon">Exalted Shade</set>
     </setters>
   </element>
   <element name="Exalted Shine" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -110,15 +134,25 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="type" addition="scimitar">Weapon</set>
-      <set name="damage" type="slashing">1d6</set>
-      <set name="damage" type="radiant">3d4</set>
+      <set name="type">Weapon</set>
       <set name="enhancement">3</set>
       <set name="attunement">true</set>
-      <set name="weapon">Scimitar</set>
+      <set name="weapon">Exalted Shine</set>
     </setters>
   </element>
-  <element name="Awakened Endrian Blade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHINE">
+  <element name="Endrian Blade" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ENDRIAN_BLADE">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_WEAPON_GROUP_SWORDS</setters>
+    <setters>
+      <set name="category">Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="range">60 ft</set>
+      <set name="slot">onehand</set>
+      <set name="damage" type="piercing">1d6</set>
+      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+    </setters>
+    </element>
+  <element name="Awakened Endrian Blade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_AWAKENED_ENDRIAN_BLADE">
     <description>
       <p>A lightweight shortsword made with an ashen wood handle, a glowing endrian steel blade and an endrian eye in its hilt</p>
       <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -126,30 +160,25 @@
       <p>When you get a critical hit with this weapons throwing ability instead of 2x the damage or dice its 3x.</p>
     </description>
     <setters>
-      <set name="keywords">shortsword</set>
-      <set name="category">Magic Weapons</set>
+      <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="range">60</set>
-      <set name="type" addition="shortsword">Weapon</set>
+      <set name="type">Weapon</set>
       <set name="enhancement">3</set>
       <set name="attunement">true</set>
-      <set name="weapon">Shortsword</set>
+      <set name="weapon">Endrian Blade</set>
     </setters>
-    <rules>
-      <grant type="Property" id="ID_INTERNAL_WEAPON_PROPERTY_THROWN"/>
-    </rules>
   </element>
   <element name="Black Death" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_DEATHLY">
-    <supports>ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_PROPERTY_RANGED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
       <set name="category">Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">N/A</set>
       <set name="slot">onehand</set>
-      <set name="range">300</set>
+      <set name="range">300 ft</set>
       <set name="type">Weapon</set>
       <set name="damage" type="piercing">10d10</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
@@ -170,8 +199,20 @@
       <set name="weapon">Black Death</set>
     </setters>
   </element>
+  <element name="Sentient Revolver" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_SENTIENT_REVOLVER">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+      <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="2">2 lb.</set>
+        <set name="slot">onehand</set>
+        <set name="range">25/75</set>
+        <set name="damage" type="piercing">1d10</set>
+        <set name="reload">6</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
+      </setters>
+  </element>
   <element name="Quickdraw Revolver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_QUICKDRAW_REVOLVER">
-    <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <description>
       <p>This revolver, while not intelligent per se, has a strong instinctual sense that responds to danger. When combat is about to begin, it compels its user to draw the gun and fire. Whenever you roll for initiative, or at the start of a surprise round, you may instantly make one weapon attack with this revolver. This bonus attack deals one extra die of damage if it hits (2d10).</p>
     </description>
@@ -183,12 +224,24 @@
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
       <set name="damage" type="piercing">1d10</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
       <set name="attunement">true</set>
-      <set name="weapon">Hand Cannon</set>
+      <set name="weapon">Sentient Revolver</set>
     </setters>
   </element>
-  <element name="Railgun" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RAILGUN_PISTOL">
+  <element name="Railgun Pistol" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RAILGUN_PISTOL">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM,ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED,ID_INTERNAL_WEAPON_PROPERTY_RANGED,ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION,ID_INTERNAL_WEAPON_PROPERTY_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+      <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="5">5 lb.</set>
+        <set name="slot">onehand</set>
+        <set name="range">100/400</set>
+        <set name="damage" type="special">1d8</set>
+        <set name="reload">1</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
+      </setters>
+  </element>
+  <element name="Railgun" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RAILGUN_">
     <supports>ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_RELOAD, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL</supports>
     <description>
       <p>This magic weapon accelerates any small metal object (weighing no more than ¼ lb.) using magically powered magnets. It is a martial ranged weapon with the following statistics.</p>
@@ -204,10 +257,7 @@
       <set name="slot">onehand</set>
       <set name="range">100/400</set>
       <set name="type">Weapon</set>
-      <set name="damage" type="bludgeoning, slashing, piercing">1d8</set>
-      <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED</set>
-      <set name="reload">1</set>
-      <set name="weapon">Heavy Pistol</set>
+      <set name="weapon">Railgun Pistol</set>
     </setters>
   </element>
   <element name="Dagger of Memories" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_DAGGER_OF_MEMORIES">
