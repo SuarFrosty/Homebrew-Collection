@@ -280,6 +280,7 @@
         <p>Absorb Memories: If an attack from the Dagger of Memories brings a creature to 0 hit points, all blood is drunk by the dagger and all the target's memories since birth are stored in the blade. The wielder must make a Wisdom save (DC 14) when this happens or be taken over for 12 hours as they are overwhelmed by the memories they have stolen.</p>
         <p>Recall: If the dagger is merely plunged into a target and drawn immediately, then wielder gains the memories of the target from the last 2 days. But this is all at the DM'S discretion as to how long ago in the targets past the blade sees from drinking their blood, and how much blood is required. Also up to the DM is how long the memories stay intact inside the blade.</p>
         <p>You have disadvantage on saving throws against spells</p>
+        <p>You are resistance against being charmed or frightened. When an enemeny attempts to cast these effects on the wielder of this weapon, they roll with disadvantage.</p>
       </description>
     </sheet>
     <setters>
@@ -293,8 +294,6 @@
       <set name="weapon">Dagger</set>
     </setters>
     <rules>
-      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_CHARM"/>
-      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FEAR"/>
       <stat name="speed" value="10"/>
       <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH"/>
     </rules>
