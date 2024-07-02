@@ -13,6 +13,6 @@
 		<file name="items-weapons.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/items-weapons.xml" />
 		<file name="items-armor.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/items-armor.xml" />
 		<!-- Feats -->
-		<file name="feats.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/feats.xml"
+		<file name="feats.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/feats.xml" />
 	</files>
 </index>
