@@ -16,7 +16,8 @@
       <set name="armorClass">25</set>
     </setters>
     <rules>
-      <stat name="ac:armored:armor" value="25"/>
+      <stat name="ac:armored:armor" value="20"/>
+      <stat name="ac:misc" value="5"/>
     </rules>
   </element>
   <element name="Cloak" type="Armor" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_CLOAK">
