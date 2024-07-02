@@ -12,7 +12,7 @@
       <set name="category">Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
-      <set name="slot">neck</set>
+      <set name="slot">body</set>
       <set name="armor">Heavy</set>
       <set name="armorClass">25</set>
     </setters>
@@ -70,7 +70,7 @@
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
-      <set name="slot">neck</set>
+      <set name="slot">body</set>
       <set name="type">Armor</set>
       <set name="armor">Necrolight</set>
       <set name="enhancement">7</set>
