@@ -1,0 +1,8 @@
+ro<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Feats</name>
+    <update version="0.0.1">
+      <file name="feats.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
+    </update>
+  </info>
