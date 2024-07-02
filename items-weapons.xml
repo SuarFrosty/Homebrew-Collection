@@ -103,7 +103,7 @@
       <set name="damage" type="radiant">3d4</set>
       <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR</set>
     </setters>
-  </element
+  </element>
   <element name="Exalted Shade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_EXALTED_SHADE">
     <description>
       <p>This pair of scimitars, shade and shine, was forged in the Positive and Negative planes. Attuning to one of the scimitars automatically attunes you to both of them, which count as one attuned item.</p>
