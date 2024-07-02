@@ -6,3 +6,22 @@ ro<?xml version="1.0" encoding="utf-8"?>
       <file name="feats.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
+  <element name="Tavern Brawler" type="Feat" source="Homebrew Collection" id="ID_WOTC_BALDURS_GATE_3_FEAT_TAVERNBRAWLER">
+    <description>
+      <p>I stole this from Baldur's Gate 3 so Lucas' bitchass could be OP. You gain the following effects:
+        <ul>
+          <li>Increase your Strength or Constitution by 1, to a maximum of 20</li>
+          <li>When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added twice to the damage and Attack rolls.</li>
+        </ul>
+      </p>
+    </description>
+    <sheet>
+      <description>
+        <p>When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added twice to the damage and Attack rolls.</p>
+      </description>
+    </sheet>
+    <rules>
+      <select type="Ability Score Improvement" name="Ability Score Increase (Tavern Brawler)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"/>
+    </rules>
+  </element>
+</elements>
