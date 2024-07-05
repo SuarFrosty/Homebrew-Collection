@@ -328,4 +328,23 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
     </rules>
   </element>
+    <element name="Poop Knife" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_POOP_KNIFE">
+    <description>
+      <p>This weapon stinks of shit, is covered in shit, and might actually be made of shit. What the fuck.</p>
+      <p>Double Pooper: You may use a bonus action to attack with knife after already attacking an enemy using your action.</p>
+      <p>Who Dealt It?: This weapon stinks like shit so bad that anybody within a 20 ft radius of this knife, that has a working sense of smell, must make a constitution saving throw at a DC of 12, on a failed save, take 3d4 poison damage.</p>
+      <p>Consecutive Shitter: When you hit an enemy two consecutive times with this weapon, the target must make a constitution saving throw at a DC of 15, on a failed save, this enemy cannot move or take any actions, bonus actions or reactions and take 1d4 poison damage. They repeat this save at the beginning of their next turn until they succeed at the saving throw.</p>
+      <p>Diarrhea: When an enemy is suffering from Consecutive Shitter, if you hit the same enemy with another 2 consecutive hits, their damage is increased by 1d4 and the DC of their save is increased by 1.</p>
+      <p>Dysentery: When you roll a crtical hit on an enemey, they get poisoned.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Rare</set>
+      <set name="type">Weapon</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+  </element>
 </elements>
+
