@@ -22,6 +22,8 @@
     </sheet>
     <rules>
       <select type="Ability Score Improvement" name="Ability Score Increase (Tavern Brawler)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"/>
+      <stat name="martial arts:damage" value="strength:modifier"/>
+      <stat name="martial arts:damage" value="strength:modifier"/>
     </rules>
   </element>
 </elements>
