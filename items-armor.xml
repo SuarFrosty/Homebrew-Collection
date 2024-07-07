@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -141,5 +141,55 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE"/>
       <stat name="constitution" value="2"/>
     </rules>
+  </element>
+  <element name="Ring of the Lycanthrope" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_LYNCANTHROPE_RING">
+    <description>
+      <p>An ancient ring of cryptic origins. The metal used to create the ring has an earthy feel to it, and holding the ring in your hand causes your hands to be engulfed in warmth. Many who are afflicted by the lycanthropy disease search for this ring to be rid of their curse once and for all. Others seek it for its ability to give control to the user, providing lycanthropes with the confidence to think of their transformations as more of a blessing than a curse.</p>
+      <p>Primal Humanity. If you are a lycanthrope, you receive the following benefits while you are attuned to the Ring of the Lycanthrope:
+        <ul>
+          <li>You can use the Shapechanger feature as a bonus action.</li>
+          <li>The "Bloodlust" rule no longer applies to you.</li>
+          <li>Control over your character isn't surrendered to your DM due to the "Emotionally Unstable" rule nor the rules regarding transformation under a full moon.</li>
+          <li>You can use an action to permanently change your humanoid form's physical appearance to its original state before becoming a lycanthrope, even if you remove your attunement to this ring. If you choose to do so, other creatures will not perceive you as a lycanthrope unless magic is used to identify your curse.</li>
+        </ul>
+      </p>
+      <p>Nature's Forgiveness: If a lycanthrope is attuned to this ring, they can spend 1d4 hours in complete stillness and meditation to remove their lycanthropy curse, regardless if they are a lycanthrope by birth. Creatures that cure themselves of lycanthropy this way are permanently immune to the lycanthropy curse afterwards, regardless of any spells, features, or effects that may be inflicted onto them in the future. After using this feature, you cannot attune to the Ring of the Lycanthrope again, and it detonates, dealing 1d12 fire damage to the user and all creatures within 5 feet of them.</p>
+      <p>Moonlight Curse: If you aren't a lycanthrope, haven't used the Nature's Forgiveness feature, and are attuned to this ring, you can spend 1d4 hours in complete stillness and meditation to permanently become any type of lycanthrope. Creatures that become a lycanthrope through this feature cannot remove their lycanthropy curse, regardless of any spells, features, or effects that affect them in the future. If you are already a lycanthrope, you cannot use this feature to change into a different type of lycanthrope. After using this feature, you cannot attune to the Ring of the Lycanthrope again, and it detonates, dealing 1d12 fire damage to the user and all creatures within 5 feet of them.</p>
+      <p>Destroying the Ring of the Lycanthrope: The ring will explode if the Moonlight Curse or Nature's Forgiveness feature is used. The ring will also crumble into a pile of dust if the user of the ring is incapacitated while in meditation due to the Moonlight Curse and Nature's Forgiveness features.</p>
+      <p>Reconstructing the Ring of the Lycanthrope: After it is destroyed, the Ring of the Lycanthrope can be reconstructed by enchanting a normal ring while holding the fur, feather, or scale of a lycanthrope on the night of a full moon. The person performing the enchantment must make a DC 15 Arcana skill check to succeed. Additionally, the person who performs the enchantment must have attuned to the Ring of the Lycanthrope before, otherwise the enchantment will fail. If the enchantment is successful, the ordinary ring used in the spell will glow with an eerie white light, consume the lycanthrope part, and transform into the Ring of the Lycanthrope. After the ring is reconstructed, the Nature's Forgiveness and Moonlight Curse features cannot be used until one week passes. Due to the magical properties and the enchantments cast on the ring by generations of spell-casters, there can only be one Ring of the Lycanthrope in existence at a time.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1</set>
+      <set name="rarity">Artifact</set>
+      <set name="type">Ring</set>
+      <set name="equippable">true</set>
+      <set name="slot">Ring</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Sorrow's Cross Fragment Duty" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_SORROWS_CROSS">
+    <description>
+      <p>The Sorrow's cross was created when a great mage wanted to separate all that made them flawed and imperfect and threw it away so they wouldn't have to deal with it. the cross became a beast that terrorized the land. Adventurers eventually took down the beast, but it partitioned itself upon death. The duty fragment takes the form of a mighty tattoo of a of dragon.</p>
+      <p>Sentience: The Sorrow's Cross Fragment Duty is lawful neutral with an Intelligence of 17 (+3), a Wisdom of 20 (+5), and a Charisma of 24 (+7). It has hearing and darkvision out to a range of 90 feet. The tattoo can speak, read, and understand Common and Draconic, and can communicate with its host telepathically. While you are attuned to it, the Sorrow's Cross Fragment Duty also understands any language you know. The tattoo speaks in a deep draconic voice.</p>
+      <p>Personality: The Sorrow's Cross Fragment Duty particularly seeks out individuals who have a deep sense of duty and self-sacrifice it will then appear upon their body and proceed to torment their host by constantly reprimanding them for any battle related mistakes or for lives lost, any opportunity for the fragment to make it's host believe they're at fault and that if only they push just that much harder then they would've been able to save more people or the villains wouldn't have gotten away, the fragment will go as far as making the host believe events completely out of their control were stoppable if only they were better. the fragment will continue to denigrate and deride its host trying to convince them that their lives mean nothing except for the people they save, that because of their perceived failures and mistakes true or false they deserve nothing no love, no hope, nothing they should only be pursuing only their duty, and the safety of others. The dragon grows each time the host believes it or when the host has feelings of self-doubt, rage, sadness, or bravery. if the host has any other tattoos the fragment will try to incorporate them into its design as it grows covering the entire body except for the face of the host. the fragment's main objective is to survive by feeding off of their host's feelings. the end goal of the fragment is to have their host inspire others to equal or greater feats so that if their current host dies then there is no short supply of hosts to take. The fragment speaks to its host telepathically and can cause hallucinations and tamper with its hosts dreams.</p>
+      <p>Others above oneself: when an ally within 15ft of you is targeted by an attack you may as a reaction interpose yourself between the attacker and the target becoming the new target for the attack. if the attack hits, you regain your reaction and gain 15 temp HP. if the attack misses, your ally gains 10 temp hp.</p>
+      <p>Your life doesn't matter so fight: Your Str/Dex and Con scores are both set to 24, you cannot take the disengage or dodge action. you have advantage against creatures larger than you. You must let all allies escape before you can retreat.</p>
+      <p>Don't be a bitch you still got breath so get up: When reduced to 0 or below hitpoints you may return to 1 hitpoint and gain your level times 10 temp hp each time you're reduced to 0 you may make a DC 10 con saving throw to return to 1 hp each time you use this the DC goes up by 1 until reaching 20 resetting at a short rest. The host must accept any martial challenge that comes their way.</p>
+      <p>Your Duty should be the only thing that sustains you: You no longer need to eat, drink, or sleep, you no longer feel the effects of age. You must keep fighting until all allies have left the field of battle.</p>
+      <p>Fight me!: As a bonus action you can force all hostile characters within 60ft of you to make a wisdom save DC (8+ your Str mod+ Prof bonus) On a failed save, the hostile creatures are drawn to you, they have disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time they attempt to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this effect doesn’t restrict the target’s movement for that turn.</p>
+      <p>Curse. This Tattoo is cursed. Attuning to this item curses you until the tattoo finds you undeserving, finds a more suitable host, or you die.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Tattoo</set>
+      <set name="equippable">true</set>
+      <set name="slot">Body</set>
+      <set name="attunement">true</set>
+    </setters>
   </element>
 </elements>
