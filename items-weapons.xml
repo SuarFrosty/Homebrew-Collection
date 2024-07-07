@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -421,6 +421,104 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="attunement">true</set>
       <set name="weapon">Shortsword</set>
     </setters>
+  </element>
+  <element name="Areadbhar" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_AREADBHAR">
+    <description>
+      <p>Areadbhar is a magical weapon forged ages ago. It's creator is unknown, but it is sometimes known as "The Slaughterer". It thirsts for blood and souls, feasting on the user's soul if it is not tempered with enough death.</p>
+      <p>The Areadbhar has the following properties:
+        <ul>
+          <li>While attuned to the artifact, you have resistance against fire damage.</li>
+          <li>While attuned to the artifact, you are immune to disease.</li>
+          <li>While attuned to the artifact, you can use an action to cast one cantrip (chosen by the DM) from it.</li>
+          <li>While attuned to the artifact, all holy water with in 10 feet of you is destroyed.</li>
+          <li>While attuned to the artifact, you have disadvantage on saving throws against spells.</li>
+        </ul>
+      </p>
+      <p>Magic Weapon: Areadbhar is a magic weapon that grants a +3 bonus to attack and damage rolls made with it.</p>
+      <p>Devour Soul: Whenever you use it to reduce a creature to 0 hit points, the spear slays the creature and devours its soul, unless it is a construct or an undead. A creature whose soul has been devoured by Areadbhar can be restored to life only by a wish spell. When it devours a soul, Areadbhar grants you temporary hit points equal to the slain creature's hit point maximum. These hit points fade after 24 hours. As long as these temporary hit points last and you keep Areadbhar in your hand, you have advantage on attack rolls, saving throws, and ability checks.</p>
+      <p>If you die while attuned to Areadbhar, the spear devours your soul.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>You have disadvantage on saving throws against spells.</p>
+      </description>
+    </sheet>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Spear</set>
+    </setters>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE"/>
+      <stat name="speed" value="10"/>
+    </rules>
+  </element>
+  <element name="Infinity Blade" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_INFINITY_BLADE">
+    <description>
+      <p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
+      <p>When you hit a chosen creature type with this weapon and reduce it to 0 hit points, the creature is shattered into pieces and disintegrated, and nothing short of the wish spell can bring it back to life.</p>
+      <p>When you hit a creature with this weapon, you can cast banishment against the creature as a bonus action. The save DC for this spell is 17, or 20 if the creature is of the chosen type. Once you cast the spell this way, you cannot cast it again until the next dawn.</p>
+      <p>After you disintegrate or banish a creature using this weapon, roll a d6 to determine the chosen creature type this weapon affects.</p>
+      <p>Chosen Creature Type:
+        <ul>
+          <li>1. Fiend</li>
+          <li>2. Elemental</li>
+          <li>3. Dragon</li>
+          <li>4. Monstrosity</li>
+          <li>5. Undead</li>
+          <li>6. Celestial</li>
+        </ul>
+      </p>
+    </description>
+    <setters
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="3">3 lb.</set>
+      <set name="rarity">Legendary</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Longsword</set>
+    </setters>
+  </element>
+  <element name="Pinewood's Blood" type="Magical Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_PINEWOODS_BLOOD">
+    <description>
+      <p>During the reign of the magister Rael, a young druid woman lived her life in the forests of her homeland. Rarely would this druid concern herself with the machinations of the "civilized" peoples of her home nation. Her life was quiet, peaceful and perfect. One day, however, a great storm began to ravage the land, and young Wick Pinewood was forced to leave her beloved forests to seek out the source of the storm. On her quest, she saw the great suffering inflicted by the wrathful queen Rael, and did what she could to ease the suffering of those harmed by the Storm Queen. Through willpower and determination, Wick reached the Golden Court and did battle with Rael, narrowly escaping with her life, but successfully slaying the wicked queen. Only her heart remained...</p>
+      <p>Upon Wick's death, her blood was drained from her body and kept in a cistern in a hidden grove. To attune to this item, one must imbibe the blood in its entirety. This causes the blood to bind itself to the one who ingests it, keeping them attuned until death. If a neutral creature imbibes the blood, they become violently ill and evacuate the blood from their body. If an evil creature imbibes the blood, they become violently ill and suffer internal damage, taking 12d6 points of poison damage that ignores immunity and resistance and can not be reduced in any way. If the blood is removed from the veins of the attuned creature, they die.</p>
+      <p>
+        <ul>
+          <li>While attuned to the artifact, you can use an action to cast one 2nd-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</li>
+          <li>While attuned to the artifact, you can use an action to cast one cantrip (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</li>
+        </ul>
+      </p>
+      <p>Aspect of the Druid (Curse): While attuned to this item, while not in a cave, coastline (or at sea), field, forest, or grove, you suffer disadvantage on spell attack rolls and saving throws against your spells are made at advantage.</p>
+      <p>Heroism Within the Vein: While attuned to this item, you become immune to poison damage, the poisoned condition, and disease.</p>
+      <p>Pinewood's Blessing: While attuned to this item, you gain the ability to cast cure wounds as a 1st level spell. When casting cure wounds in this way, you use your Wisdom as your spellcasting ability. You may cast cure wounds in this way four times. Pinewood's Blood regains all expended uses at dawn.</p>
+      <p>Wisdom of the Wilds: While attuned to this item, your Wisdom score increases by 2 to a maximum of 24.</p>
+      <p>Destroying the Pinewood's Blood: Pinewood's Blood may only be destroyed if a creature attuned to Rael's Heart slays the creature attuned to Pinewood's Blood.</p>
+    </description>
+    <sheet>
+      <description>
+        <p>While not in a cave, coastline (or at sea), field, forest, or grove, you suffer disadvantage on spell attack rolls and saving throws against your spells are made at advantage.</p>
+      </description>
+    </sheet>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+      <set name="container">Druidic Focus</set>
+    </setters>
+    <rules>
+      <stat name="wisdom" value="2"/>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON"/>
+    </rules>
   </element>
 </elements>
 
