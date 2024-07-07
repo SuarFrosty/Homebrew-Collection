@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -625,6 +625,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
+      <set name="equippable">true</set>
       <set name="enhancement">3</set>
       <set name="rarity">Artifact</set>
       <set name="weapon">Martial Strike</set>
@@ -640,6 +641,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
+      <set name="equippable">true</set>
       <set name="enhancement">3</set>
       <set name="rarity">Artifact</set>
       <set name="weapon">Martial Strike (Lvl 5)</set>
@@ -655,6 +657,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
+      <set name="equippable">true</set>
       <set name="enhancement">3</set>
       <set name="rarity">Artifact</set>
       <set name="weapon">Martial Strike (Lvl 11)</set>
@@ -670,6 +673,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
+      <set name="equippable">true</set>
       <set name="enhancement">3</set>
       <set name="rarity">Artifact</set>
       <set name="weapon">Martial Strike (Lvl 17)</set>
