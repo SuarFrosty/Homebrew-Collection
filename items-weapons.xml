@@ -486,7 +486,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">Longsword</set>
     </setters>
   </element>
-  <element name="Pinewood's Blood" type="Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_PINEWOODS_BLOOD">
+  <element name="Pinewood's Blood" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_PINEWOODS_BLOOD">
     <description>
       <p>During the reign of the magister Rael, a young druid woman lived her life in the forests of her homeland. Rarely would this druid concern herself with the machinations of the "civilized" peoples of her home nation. Her life was quiet, peaceful and perfect. One day, however, a great storm began to ravage the land, and young Wick Pinewood was forced to leave her beloved forests to seek out the source of the storm. On her quest, she saw the great suffering inflicted by the wrathful queen Rael, and did what she could to ease the suffering of those harmed by the Storm Queen. Through willpower and determination, Wick reached the Golden Court and did battle with Rael, narrowly escaping with her life, but successfully slaying the wicked queen. Only her heart remained...</p>
       <p>Upon Wick's death, her blood was drained from her body and kept in a cistern in a hidden grove. To attune to this item, one must imbibe the blood in its entirety. This causes the blood to bind itself to the one who ingests it, keeping them attuned until death. If a neutral creature imbibes the blood, they become violently ill and evacuate the blood from their body. If an evil creature imbibes the blood, they become violently ill and suffer internal damage, taking 12d6 points of poison damage that ignores immunity and resistance and can not be reduced in any way. If the blood is removed from the veins of the attuned creature, they die.</p>
@@ -511,6 +511,8 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondrous Item</set>
+      <set name="equippable">true</set>
       <set name="rarity">Artifact</set>
       <set name="attunement">true</set>
       <set name="container">Druidic Focus</set>
