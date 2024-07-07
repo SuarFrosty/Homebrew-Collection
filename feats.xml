@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Feats</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="feats.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
