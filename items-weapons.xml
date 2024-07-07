@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -570,23 +570,19 @@ This dagger's blade is vicious in shape after years of being battered and used a
   <element name="Martial Strike" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
-        <set name="category">Homebrew</set>
+        <set name="category">Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0">-</set>
         <set name="slot">twohand</set>
         <set name="range">5 ft.</set>
-        <set name="damage" type="bludgeoning">1d{{martial arts:dice}}+{{martial arts:damage}}</set>
+        <set name="damage" type="bludgeoning">1d{{martial arts:dice}}</set>
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
     <rules>
-      <stat name="martial arts:attack" value="strength:modifier" bonus="martial arts"/>
-      <stat name="martial arts:attack" value="dexterity:modifier" bonus="martial arts"/>
-      <stat name="martial arts:damage" value="strength:modifier" bonus="martial arts"/>
-      <stat name="martial arts:damage" value="dexterity:modifier" bonus="martial arts"/>
-      <stat name="martial arts:dice" value="4" bonus="martial arts"/>
-      <stat name="martial arts:dice" value="6" bonus="martial arts" level="5"/>
-      <stat name="martial arts:dice" value="8" bonus="martial arts" level="11"/>
-      <stat name="martial arts:dice" value="10" bonus="martial arts" level="17"/>
+      <stat name="martial arts:dice" value="4""/>
+      <stat name="martial arts:dice" value="6" level="5"/>
+      <stat name="martial arts:dice" value="8" level="11"/>
+      <stat name="martial arts:dice" value="10" level="17"/>
     </rules>
   </element>
   <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI">
