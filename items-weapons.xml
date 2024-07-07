@@ -523,5 +523,86 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON"/>
     </rules>
   </element>
+  <element name="Planeshift" type="Weapon" source="Player’s Handbook" id="ID_WOTC_PHB_WEAPON_PLANESHIFT">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+      <setters>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="2">2 lb.</set>
+        <set name="slot">onehand</set>
+        <set name="range">5+55 ft.</set>
+        <set name="damage" type="piercing">1d6</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD</set>
+      </setters>
+  </element>
+  <element name="Planeshift Sword" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_PLANESHIFT_SWORDS">
+    <description>
+      <p>The Planeshift Swords are a pair of blades which initially resemble shortswords. The blades harness the energy created by tension and friction between realms, with their striking energy drawn from the same energy as planar rift magic. Having been forged from the remains of the first planar gate and imbued with its energies, the swords present a fairly unique combat potential. The blades themselves don't appear to be of any intrigue until attuned. While activated, the Planeshift Sword's physical blades will melt and evaporate, becoming near-ethereal wispy blades of energy.</p>
+      <p>Magic Weapon: The Planeshift Swords are a inseparable pair of magical weapons that grant +3 to attack and damage rolls with them.</p>
+      <p>Alignment: The color of the energy blade depends on your alignment, and affects the energy of the blade. LG: White. NG: Yellow. CG: Green... LN: Orange. TN: Silver/Grey. CN: Blue... LE: Red. NE: Purple. CE: Black. The vibrancy of color is up to the player or DM. Neutral alignment players with a significant moral leaning may wish to add a reddish tint (If more evil) or a yellowish tint (If more good)for the sake of personal identification.</p>
+      <p>Attuned Acumen: When the blades are attuned and activated, the wielder may use their Wisdom modifier in the place of their Dexterity modifier when rolling to hit or damage. When deactivated or powerless, this is inapplicable.</p>
+      <p>Planar Energy Strikes: When the blades are attuned and activated, any attack made with them creates a directional wave of pure energy which affects a 55ft long by 5ft wide line. The wave travels through creatures to the target but not through walls. For the purpose of determining its effect on wards and magical/nonmagical barriers, it can be considered a spell of Forcewave. The attack deals 1d6 magic damage, ignoring any magic resistance or immunity. The targeted enemy and enemies between them and the player must attempt a Strength save of DC 8 + Your Proficiency + Your Dexterity or Wisdom Modifier. On a failed save, they take an additional 2d6 force damage, are pushed 10 feet, and knocked prone. On a successful save, they take half damage.</p>
+      <p>At Arm's Length: While activated, attacks against enemies within 5 feet have disadvantage.</p>
+      <p>Plane Shift: The blades may be held together in the shape of an X to create a 5' x 5' planar gate directly in front of the caster. This takes 1 full turn of concentration to activate, and requires a Wisdom check of DC20 - the character's level (Divided by 2). On a success, the gate leads to a location of the caster's choice. On a failure, the gate leads to a random location on a plane determined by the DM. The gate may be held open for a maximum of 3 turns, after which point the caster is left behind. Once the gate is closed, the swords become powerless/deactivated for 1d4 days and the player takes levels of exhaustion equal to the roll. For each full turn the gate was held open, add 1 to the 1d4 roll. While powerless, the swords are still considered magical weapons when identified by spells, but are functionally regular Shortswords. There is a 33% chance Plane Shift can never be cast again by these blades. (Note: Differs from the Plane Shift spell, up to 8 creatures and the caster may enter the gate at will without requiring physical contact with one another.)</p>
+      <p>Precision Cut. An enemy killed by the force wave of these blades is effectively bisected, as well as whatever clothing or armor they were wearing.</p>
+      <p>The Planeshift Swords has the following properties:
+        <ul>
+          <li>While attuned to the artifact, you gain proficiency in one skill of the DM's choice.</li>
+          <li>While attuned to the artifact, you can use an action to cast one 6th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</li>
+          <li>While attuned to the artifact, your weight increases by 10 pounds.</li>
+        </ul>
+      </p>
+      <p>Destroying the Planeshift Swords. In order to destroy the Planeshift Swords, each sword must be simultaneously thrust through 2 separate planar gates leading to different planes. With ten minutes of concentration, their planar energy will be stripped of them, leaving behind two permanently powerless hilts. These may be smelted down into a nice necklace or simply tossed away.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="7">7 lb.</set>
+      <set name="rarity">Artifact</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Planeshift</set>
+    </setters>
+    <rules>
+      <select type="Proficiency" name="Skill Proficiency" number="1"/>
+    </rules>
+  </element>
+  <element name="Martial Strike" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <setters>
+        <set name="category">Homebrew</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0">-</set>
+        <set name="slot">twohand</set>
+        <set name="range">5 ft.</set>
+        <set name="damage" type="bludgeoning">1d{{martial arts:dice}}+{{martial arts:damage}}</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
+    </setters>
+    <rules>
+      <stat name="martial arts:attack" value="strength:modifier" bonus="martial arts"/>
+      <stat name="martial arts:attack" value="dexterity:modifier" bonus="martial arts"/>
+      <stat name="martial arts:damage" value="strength:modifier" bonus="martial arts"/>
+      <stat name="martial arts:damage" value="dexterity:modifier" bonus="martial arts"/>
+      <stat name="martial arts:dice" value="4" bonus="martial arts"/>
+      <stat name="martial arts:dice" value="6" bonus="martial arts" level="5"/>
+      <stat name="martial arts:dice" value="8" bonus="martial arts" level="11"/>
+      <stat name="martial arts:dice" value="10" bonus="martial arts" level="17"/>
+    </rules>
+  </element>
+  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike</set>
+    </setters>
+  </element>
 </elements>
 
