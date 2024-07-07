@@ -20,10 +20,5 @@
         <p>When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added twice to the damage and Attack rolls.</p>
       </description>
     </sheet>
-    <rules>
-      <select type="Ability Score Improvement" name="Ability Score Increase (Tavern Brawler)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"/>
-      <stat name="martial arts:damage" value="strength:modifier"/>
-      <stat name="martial arts:damage" value="strength:modifier"/>
-    </rules>
   </element>
 </elements>
