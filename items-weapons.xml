@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -428,7 +428,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>The Areadbhar has the following properties:
         <ul>
           <li>While attuned to the artifact, you have resistance against fire damage.</li>
-          <li>While attuned to the artifact, you are immune to disease.</li>
+          <li>While attuned to the artifact, you can use an action to cast one 3rd-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</li>
           <li>While attuned to the artifact, you can use an action to cast one cantrip (chosen by the DM) from it.</li>
           <li>While attuned to the artifact, all holy water with in 10 feet of you is destroyed.</li>
           <li>While attuned to the artifact, you have disadvantage on saving throws against spells.</li>
