@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -344,6 +344,82 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="rarity">Rare</set>
       <set name="type">Weapon</set>
       <set name="weapon">Dagger</set>
+    </setters>
+  </element>
+  <element name="Starmetal Sliver" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_STARMETAL_SLIVER">
+    <description>
+      <p>This slim blade was forged using strange, unearthly metals from a meteorite. When you use an action to toss this magic dagger into the air, it orbits your body at a distance of 1d3 feet. Another creature can use an action to grasp the dagger to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and either wield or stow the dagger.</p>
+      <p>When you take the Attack action while the dagger is orbiting you, you can use a bonus action to cause the dagger to attack a target within 10 feet of you. The dagger uses your attack roll and ability score modifier to damage rolls. Immediately after the attack, the dagger returns to orbit you.</p>
+      <p>In addition, the dagger creates a small gravitational field that wards off harm. While the dagger orbits you, when you are hit by a ranged weapon attack, the damage you take from the attack is reduced by 1d10 + 4. If the damage is reduced to 0, the missile slows to a stop without hitting you and falls to the ground at your feet.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+  </element>
+  <element name="Ripple Steel Dagger" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RIPPLE_STEEL">
+    <description>
+      <p>This dagger employs the rippling energy of tremors to find the kill on its targets. It has 3 charges that are recovered every day at dawn.</p>
+      <p>Rippling Burst: Ripple steel distorts to produce thunderous bursts: when you hit a target with this dagger, you can expend 1 charge to cause 1d6 extra thunder damage, no action required.</p>
+      <p>Tectonic Jumble: The dagger transfers the ripple to locked objects to pry them open. You can touch an object and expend 2 charges to cast knock on it. The spell cast in this way has no effect on objects affected by arcane lock.</p>
+      <p>Deep Ripple: While attuned to this dagger, your sneak attack feature can be enhanced: whenever you deal extra damage with it using this dagger, you can use a bonus action and expend 2 charges to deal an additional 2d6 thunder damage to the target.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+  </element>
+  <element name="Murder of Crows" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MURDER_OF_CROWS">
+    <description>
+      <p>Gifted by the murder, this dagger's pommel is decorated by a different trinket whenever it's unsheathed - shiny rocks, pieces of metal or colored glass shards are the most common finds. I t has 3 charges that are regained every day at dusk.</p>
+      <p>Birds of a Feather: When you make an attack with Murder of Crows, you can summon a spectral copy of it on your other hand. This copy disappears at the start of your next turn (or before is you wish to). Additionally, you can expend 1 charge when you make a ranged attack with the original to summon it back to your hand.</p>
+      <p>Sharp Beaks and Claws: When you make an attack with Murder or Crows, you can spend a number of charges so the Murder aids you. You deal an extra 1d6 slashing damage per charge on a hit and you score a critical hit on a number lower than 20 per charge expended. However, your critical failure is raised in the same way and you suffer 1d6 + Dexterity modifier slashing damage on  such a failure.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+  </element>
+    <element name="Twin Stars (Dagger)" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TWINSTAR_DAGGER">
+    <description>
+      <p>These blades mimic the balance between two stars the circle around each other, the perfect pair for ambidextrous warrios. They have 3 charges that are recovered every day at dawn. Due to their twinned nature, attuning to both only counts at attuning to one item</p>
+      <p>Twinned Pull: The Twin Stars attract each other: while having one of the blades in one hand and the other one being in the same plane of existence as you, you can summon it to your other hand requiring no action. You need to expend 1 charge in case the other blade is more than 100 ft. away.</p>
+      <p>Twofold Brilliance: The blade work better together: when you make a main and a bonus attack with the Twin Stars using two-weapon fighting adn hit them both in the same turn, you deal an extra 1d6 radiant damage on the bonus attack. Additionally, you can expend 1 charge and use a reaction to try and blind the target of the bonus attack: they must make a DC 13 Constitution saving throw or be blinded until the end of their next turn.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="1">1 lb.</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Dagger</set>
+    </setters>
+  </element>
+  <element name="Twin Stars (Shortsword)" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TWINSTAR_SHORTSWORD">
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="2">2 lb.</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Weapon</set>
+      <set name="attunement">true</set>
+      <set name="weapon">Shortsword</set>
     </setters>
   </element>
 </elements>
