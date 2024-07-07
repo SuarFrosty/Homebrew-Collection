@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.4">
+    <update version="0.0.1">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -475,7 +475,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
         </ul>
       </p>
     </description>
-    <setters
+    <setters>
       <set name="category">Homebrew</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
