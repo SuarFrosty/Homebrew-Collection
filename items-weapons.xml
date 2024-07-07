@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -567,7 +567,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <select type="Proficiency" name="Skill Proficiency" number="1"/>
     </rules>
   </element>
-  <element name="Martial Strike" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE">
+  <element name="Martial Strike" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_1">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
         <set name="category">Weapons</set>
@@ -575,15 +575,45 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="weight" lb="0">-</set>
         <set name="slot">twohand</set>
         <set name="range">5 ft.</set>
-        <set name="damage" type="bludgeoning">1d{{martial arts:dice}}</set>
+        <set name="damage" type="bludgeoning">1d4</set>
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
-    <rules>
-      <stat name="martial arts:dice" value="4"/>
-      <stat name="martial arts:dice" value="6" level="5"/>
-      <stat name="martial arts:dice" value="8" level="11"/>
-      <stat name="martial arts:dice" value="10" level="17"/>
-    </rules>
+  </element>
+  <element name="Martial Strike (Lvl 5)" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_5">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0">-</set>
+        <set name="slot">twohand</set>
+        <set name="range">5 ft.</set>
+        <set name="damage" type="bludgeoning">1d6</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
+    </setters>
+  </element>
+  <element name="Martial Strike (Lvl 11)" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_11">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0">-</set>
+        <set name="slot">twohand</set>
+        <set name="range">5 ft.</set>
+        <set name="damage" type="bludgeoning">1d8</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
+    </setters>
+  </element>
+    <element name="Martial Strike (Lvl 17)" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_17">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
+    <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0">-</set>
+        <set name="slot">twohand</set>
+        <set name="range">5 ft.</set>
+        <set name="damage" type="bludgeoning">1d10</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
+    </setters>
   </element>
   <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI">
     <description>
@@ -598,6 +628,51 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="enhancement">3</set>
       <set name="rarity">Artifact</set>
       <set name="weapon">Martial Strike</set>
+    </setters>
+  </element>
+  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_5">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike (Lvl 5)</set>
+    </setters>
+  </element>
+  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_11">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike (Lvl 11)</set>
+    </setters>
+  </element>
+  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_17">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike (Lvl 17)</set>
     </setters>
   </element>
 </elements>
