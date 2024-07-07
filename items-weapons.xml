@@ -512,6 +512,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
+      <set name="type">Spellcasting Focus</set>
       <set name="attunement">true</set>
       <set name="container">Druidic Focus</set>
     </setters>
