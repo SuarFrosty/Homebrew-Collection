@@ -579,10 +579,10 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
     <rules>
-      <stat name="martial arts:dice" value="4""/>
-      <stat name="martial arts:dice" value="6" level="5"/>
-      <stat name="martial arts:dice" value="8" level="11"/>
-      <stat name="martial arts:dice" value="10" level="17"/>
+      <stat name={{martial arts:dice}} value="4""/>
+      <stat name={{martial arts:dice}} value="6" level="5"/>
+      <stat name={{martial arts:dice}} value="8" level="11"/>
+      <stat name={{martial arts:dice}} value="10" level="17"/>
     </rules>
   </element>
   <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI">
