@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Feats</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="feats.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -20,5 +20,8 @@
         <p>When you make an unarmed attack, use an improvised weapon, or throw something, your Strength Modifier is added twice to the damage and Attack rolls.</p>
       </description>
     </sheet>
+    <rules>
+      <select type="Ability Score Improvement" name="Tavern Brawler" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CONSTITUTION"/>
+    </rules>
   </element>
 </elements>
