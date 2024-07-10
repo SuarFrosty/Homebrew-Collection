@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -124,7 +124,9 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       <p>Destroying the Ring of Stars. This ring can only be destroyed by piercing it with the Patchwork Dagger, which will result in both items disintegrating into worthless dust.</p>
     </description>
     <sheet>
-      <description>You have disadvantage on saving throws against poison.</description>
+      <description>
+        <p>You have disadvantage on saving throws against poison.</p>
+      </description>
     </sheet>
     <setters>
       <set name="category">Homebrew</set>
