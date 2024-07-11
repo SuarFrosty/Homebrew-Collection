@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.3">
+    <update version="0.0.4">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -38,7 +38,7 @@
       <p>If a creature within 50 ft of you that you can see takes damage, you may transfer 1/4 of the damage to yourself.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="6">6 lb.</set>
       <set name="slot">onehand,secondary</set>
@@ -66,7 +66,7 @@
       <p>Destroying the Necrolight. Cannot be destroyed by any other means than Death himself.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
@@ -98,7 +98,7 @@
       <p>Destroying The Robe of Shadows: The Robe of Shadows can only be destroyed by Vorinthar himself. If anyone else tries to attempt this feat, the robes vanish.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Armor</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
@@ -130,7 +130,7 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       </description>
     </sheet>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1</set>
       <set name="rarity">Artifact</set>
@@ -162,7 +162,7 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       <p>Reconstructing the Ring of the Lycanthrope: After it is destroyed, the Ring of the Lycanthrope can be reconstructed by enchanting a normal ring while holding the fur, feather, or scale of a lycanthrope on the night of a full moon. The person performing the enchantment must make a DC 15 Arcana skill check to succeed. Additionally, the person who performs the enchantment must have attuned to the Ring of the Lycanthrope before, otherwise the enchantment will fail. If the enchantment is successful, the ordinary ring used in the spell will glow with an eerie white light, consume the lycanthrope part, and transform into the Ring of the Lycanthrope. After the ring is reconstructed, the Nature's Forgiveness and Moonlight Curse features cannot be used until one week passes. Due to the magical properties and the enchantments cast on the ring by generations of spell-casters, there can only be one Ring of the Lycanthrope in existence at a time.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1</set>
       <set name="rarity">Artifact</set>
@@ -185,7 +185,7 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       <p>Curse. This Tattoo is cursed. Attuning to this item curses you until the tattoo finds you undeserving, finds a more suitable host, or you die.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0</set>
       <set name="rarity">Legendary</set>
