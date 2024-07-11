@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.5">
+    <update version="0.0.6">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -38,7 +38,7 @@
       </p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="rarity">Artifact</set>
@@ -68,7 +68,7 @@
       <p>Furthermore, you can make one attack with it as a bonus action on each of your turns. Immediately after you make a ranged attack with this weapon, it flies back to your hand.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Legendary</set>
@@ -110,7 +110,7 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="rarity">Artifact</set>
@@ -128,7 +128,7 @@
       <p> Shade and Shine: When you hit with these shortswords, you deal an extra 3d4 necrotic and radiant damage to the target, respectfully.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="rarity">Artifact</set>
@@ -158,7 +158,7 @@
       <p>When you get a critical hit with this weapons throwing ability instead of 2x the damage or dice its 3x.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Artifact</set>
@@ -188,7 +188,7 @@
       <p>Death Shot. While you are wielding Black Death, you can use your action to fire it. When you do so, a 300-foot long line of black energy that is 1 foot wide erupts from the gun, tearing apart everything in its path. All nonmagical objects are automatically obliterated. Magical objects that are not artifacts are disabled for one minute as if it was within an antimagic field. All creatures in the line must make a DC 20 Dexterity saving throw. They take 10d10 force damage on a failed save, or half as much on a successful one. If this damage reduces a target to 0 hit points, it is destroyed, leaving no remains. After you fire black death, it continually smokes for 1 minute, during which it cannot be fired again.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Artifact</set>
@@ -215,7 +215,7 @@
       <p>This revolver, while not intelligent per se, has a strong instinctual sense that responds to danger. When combat is about to begin, it compels its user to draw the gun and fire. Whenever you roll for initiative, or at the start of a surprise round, you may instantly make one weapon attack with this revolver. This bonus attack deals one extra die of damage if it hits (2d10).</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="slot">onehand</set>
@@ -248,7 +248,7 @@
       <p>Magically Enhanced. If you have spell slots, you can expend one when you attack with this weapon. It deals an additional 1d8 damage for each level of spell slot you expend.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="5">5 lb.</set>
       <set name="rarity">Rare</set>
@@ -276,15 +276,12 @@
     </description>
     <sheet>
       <description>
-        <p>Memory Sleuth: Upon slicing a target, wielder gains the memories of the last 2 hours of the target. The target cannot resist their memories being taken through their blood as long as they are alive. This feature does not affect undead creatures.</p>
-        <p>Absorb Memories: If an attack from the Dagger of Memories brings a creature to 0 hit points, all blood is drunk by the dagger and all the target's memories since birth are stored in the blade. The wielder must make a Wisdom save (DC 14) when this happens or be taken over for 12 hours as they are overwhelmed by the memories they have stolen.</p>
-        <p>Recall: If the dagger is merely plunged into a target and drawn immediately, then wielder gains the memories of the target from the last 2 days. But this is all at the DM'S discretion as to how long ago in the targets past the blade sees from drinking their blood, and how much blood is required. Also up to the DM is how long the memories stay intact inside the blade.</p>
         <p>You have disadvantage on saving throws against spells</p>
         <p>You are resistance against being charmed or frightened. When an enemeny attempts to cast these effects on the wielder of this weapon, they roll with disadvantage.</p>
       </description>
     </sheet>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Artifact</set>
@@ -315,7 +312,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Destroying the Patchwork Dagger. This dagger's preservation magic is tied to the Ring of Stars, if this dagger is used on the ring, both items are permanently destroyed via disintegration.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Artifact</set>
@@ -338,7 +335,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Dysentery: When you roll a crtical hit on an enemey, they get poisoned.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Rare</set>
@@ -353,7 +350,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>In addition, the dagger creates a small gravitational field that wards off harm. While the dagger orbits you, when you are hit by a ranged weapon attack, the damage you take from the attack is reduced by 1d10 + 4. If the damage is reduced to 0, the missile slows to a stop without hitting you and falls to the ground at your feet.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Very Rare</set>
@@ -370,7 +367,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Deep Ripple: While attuned to this dagger, your sneak attack feature can be enhanced: whenever you deal extra damage with it using this dagger, you can use a bonus action and expend 2 charges to deal an additional 2d6 thunder damage to the target.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Uncommon</set>
@@ -386,7 +383,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Sharp Beaks and Claws: When you make an attack with Murder or Crows, you can spend a number of charges so the Murder aids you. You deal an extra 1d6 slashing damage per charge on a hit and you score a critical hit on a number lower than 20 per charge expended. However, your critical failure is raised in the same way and you suffer 1d6 + Dexterity modifier slashing damage on  such a failure.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Uncommon</set>
@@ -402,7 +399,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Twofold Brilliance: The blade work better together: when you make a main and a bonus attack with the Twin Stars using two-weapon fighting adn hit them both in the same turn, you deal an extra 1d6 radiant damage on the bonus attack. Additionally, you can expend 1 charge and use a reaction to try and blind the target of the bonus attack: they must make a DC 13 Constitution saving throw or be blinded until the end of their next turn.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="1">1 lb.</set>
       <set name="rarity">Uncommon</set>
@@ -413,7 +410,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
   </element>
   <element name="Twin Stars (Shortsword)" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TWINSTAR_SHORTSWORD">
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="2">2 lb.</set>
       <set name="rarity">Uncommon</set>
@@ -444,7 +441,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       </description>
     </sheet>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="rarity">Uncommon</set>
@@ -464,19 +461,43 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>When you hit a chosen creature type with this weapon and reduce it to 0 hit points, the creature is shattered into pieces and disintegrated, and nothing short of the wish spell can bring it back to life.</p>
       <p>When you hit a creature with this weapon, you can cast banishment against the creature as a bonus action. The save DC for this spell is 17, or 20 if the creature is of the chosen type. Once you cast the spell this way, you cannot cast it again until the next dawn.</p>
       <p>After you disintegrate or banish a creature using this weapon, roll a d6 to determine the chosen creature type this weapon affects.</p>
-      <p>Chosen Creature Type:
-        <ul>
-          <li>1. Fiend</li>
-          <li>2. Elemental</li>
-          <li>3. Dragon</li>
-          <li>4. Monstrosity</li>
-          <li>5. Undead</li>
-          <li>6. Celestial</li>
-        </ul>
-      </p>
+      <table>
+        <thead>
+          <tr>
+            <td>d6</td>
+            <td>Creature Type</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Fiend</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Elemental</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Dragon</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Monstrosity</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Undead</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Celestial</td>
+          </tr>
+        </tbody>
+      </table>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="3">3 lb.</set>
       <set name="rarity">Legendary</set>
@@ -508,7 +529,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       </description>
     </sheet>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Wondrous Items</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">0 lb.</set>
       <set name="type">Wondrous Item</set>
@@ -554,7 +575,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Destroying the Planeshift Swords. In order to destroy the Planeshift Swords, each sword must be simultaneously thrust through 2 separate planar gates leading to different planes. With ten minutes of concentration, their planar energy will be stripped of them, leaving behind two permanently powerless hilts. These may be smelted down into a nice necklace or simply tossed away.</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="7">7 lb.</set>
       <set name="rarity">Artifact</set>
@@ -570,7 +591,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
   <element name="Martial Strike" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_1">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
-        <set name="category">Weapons</set>
+        <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0">-</set>
         <set name="slot">twohand</set>
@@ -582,7 +603,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
   <element name="Martial Strike Lvl 5" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_5">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
-        <set name="category">Weapons</set>
+        <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0">-</set>
         <set name="slot">twohand</set>
@@ -594,7 +615,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
   <element name="Martial Strike Lvl 11" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_11">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
-        <set name="category">Weapons</set>
+        <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0">-</set>
         <set name="slot">twohand</set>
@@ -606,7 +627,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
     <element name="Martial Strike Lvl 17" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_17">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
-        <set name="category">Weapons</set>
+        <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0">-</set>
         <set name="slot">twohand</set>
@@ -621,7 +642,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
@@ -631,13 +652,13 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">Martial Strike</set>
     </setters>
   </element>
-  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_5">
+  <element name="Amazing Wraps of Torrential Ki Lvl 5" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_5">
     <description>
       <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
       <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
@@ -647,13 +668,13 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">Martial Strike Lvl 5</set>
     </setters>
   </element>
-  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_11">
+  <element name="Amazing Wraps of Torrential Ki Lvl 11" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_11">
     <description>
       <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
       <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
@@ -663,13 +684,13 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">Martial Strike Lvl 11</set>
     </setters>
   </element>
-  <element name="Amazing Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_17">
+  <element name="Amazing Wraps of Torrential Ki Lvl 17" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_17">
     <description>
       <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
       <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
     </description>
     <setters>
-      <set name="category">Homebrew</set>
+      <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0">-</set>
       <set name="type">Weapon</set>
