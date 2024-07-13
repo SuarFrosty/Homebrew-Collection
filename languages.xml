@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <info>
+    <name>Languages</name>
+    <update version="0.0.1">
+      <file name="languages.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
+    </update>
+  </info>
+  <element name="Animal Speak" type="Language" source="Homebrew Collection" id="ID_LANGUAGE_ANIMAL_SPEAK">
+    <supports>Standard</supports>
+    <description>
+      <p>Typically spoken by humans.</p>
+    </description>
+    <setters>
+      <set name="standard">true</set>
+      <set name="speakers">Tabaxi, Satyr</set>
+      <set name="script">Animal Speak</set>
+    </setters>
+  </element>
+</elements>
