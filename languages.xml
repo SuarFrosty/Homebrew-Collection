@@ -9,7 +9,7 @@
   <element name="Animal Speak" type="Language" source="Homebrew Collection" id="ID_LANGUAGE_ANIMAL_SPEAK">
     <supports>Standard</supports>
     <description>
-      <p>Typically spoken by humans.</p>
+      <p>Typically spoken by animal creatures.</p>
     </description>
     <setters>
       <set name="standard">true</set>
