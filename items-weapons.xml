@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.6">
+    <update version="0.0.7">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -652,6 +652,68 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">Martial Strike</set>
     </setters>
   </element>
+  <element name="Lesser Wraps of Torrential Ki" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI__LESSER_TORRENTIAL_KI">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>These wraps add +2 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">2</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike</set>
+    </setters>
+  </element>
+  <element name="Lesser Wraps of Torrential Ki Lvl 5" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_LESSER_TORRENTIAL_KI_5">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>These wraps add +2 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">2</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike Lvl 5</set>
+    </setters>
+  </element>
+  <element name="Lesser Wraps of Torrential Ki Lvl 11" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_LESSER_TORRENTIAL_KI_11">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>Unlike the lesser version, these wraps adds +3 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">2</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike Lvl 11</set>
+    </setters>
+  </element>
+  <element name="Lesser Wraps of Torrential Ki Lvl 17" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_LESSER_TORRENTIAL_KI_17">
+    <description>
+      <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
+      <p>These wraps add +2 to your attack and damage rolls</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">2</set>
+      <set name="rarity">Artifact</set>
+      <set name="weapon">Martial Strike Lvl 17</set>
   <element name="Amazing Wraps of Torrential Ki Lvl 5" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_TORRENTIAL_KI_5">
     <description>
       <p>Woven of giant spider silk subjected to secret processing, these handwraps enhance the monk's flow of damaging ki into the target, increasing damage by one Martial Arts die. Non-monks inflict an extra point of damage with their unarmed strikes (i.e. two points total).</p>
