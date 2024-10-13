@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -49,7 +49,7 @@
       <set name="attunement">true</set>
     </setters>
     <rules>
-      <stat name="ac:shield" value="1" bonus="enhancement"/>
+      <stat name="ac:shield" value="2" bonus="enhancement"/>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING"/>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING"/>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING"/>
