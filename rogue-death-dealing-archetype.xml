@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -225,7 +225,7 @@
             </sheet>
         </element>
         <element name="Armored" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>While carrying your Deck you gain +2 to your Armor Class.</p>
             </description>
@@ -234,7 +234,7 @@
             </rules>
         </element>
         <element name="Conjuring" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>Once per day, you can use an action to cast the <strong>Conjure Cardlings</strong> spell.</p>
             </description>
@@ -249,7 +249,7 @@
             </rules>
         </element>
         <element name="Fiery" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FIERY">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>Once per day, as an action, you throw a card at a point within 90 feet which then erupts in flame. Each creature within a 20 foot radius must make a DC 15 dexterity saving throw. A target take 5d6 fire damage on a failed save or half as much on a successful one. The fire spreads arounds corners and ignites flammable objects in the area that aren't being worn or carried.</p>
             </description>
@@ -258,7 +258,7 @@
             </sheet>
         </element>
         <element name="Fortified" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>Your own House of Cards!</p>
                 <p class="indent">Once per day, you can use an action to place your Deck on the ground and it rapidly grows into a fortress that remains until you use an Action that dismisses it. You can only dismiss the fortress if it is empty. For the Fortress' stats, see the item <strong>Instant Fortress</strong>. If the fortress is destroyed, so is your Deck of cards and a new Deck must be conjured.</p>
@@ -268,7 +268,7 @@
             </sheet>
         </element>
         <element name="Hearty" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>Your Death Dealing Deck acts a lesser <strong>Amulet of Health</strong> and grants you a 17 Constitution.</p>
             </description>
@@ -277,7 +277,7 @@
             </rules>
         </element>
         <element name="Indomitable" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>You can't be charmed, frightened, stunned, or petrified.</p>
             </description>
@@ -286,7 +286,7 @@
             </sheet>
         </element>
         <element name="Quick" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_QUICK">
-            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
+            <supports>Major Perk, Death Dealing Rogue, 9, 20</supports>
             <description>
                 <p>While carrying your Deck, you gain +2 bonus to your initiative rolls.</p>
             </description>
