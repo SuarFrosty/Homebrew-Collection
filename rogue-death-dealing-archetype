@@ -242,7 +242,7 @@
                 <list known="true">Death Dealing"</list>
             </spellcasting>
             <rules>
-                <grant type="Spell" id="ID_STEVE_CONLEY_SPELL_CONJURE_CARDLINGS" spellcasting="Death Dealing" known="true" prepared="true />
+                <grant type="Spell" id="ID_STEVE_CONLEY_SPELL_CONJURE_CARDLINGS" spellcasting="Death Dealing" known="true" prepared="true" />
             </rules>
         </element>
         <element name="Fiery" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FIERY">
