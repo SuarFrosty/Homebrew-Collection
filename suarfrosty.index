@@ -16,5 +16,9 @@
 		<file name="feats.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/feats.xml" />
 		<!-- Languages -->
 		<file name="languages.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/languages.xml" />
+		<!-- Archetypes -->
+		<file name="rogue-death-dealing-archetype.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/rogue-death-dealing-archetype.xml" />
+		<!-- Spells -->
+		<file name="spells.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/spells.xml" />
 	</files>
 </index>
