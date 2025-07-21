@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -134,9 +134,9 @@
             </description>
             <sheet display="false"/>
             <rules>
-                <select type="Perk" name="Minor Perk (Rogue 7)" supports="Minor Perk,Rogue,7" level="7" />
-                <select type="Perk" name="Minor Perk (Rogue 13)" supports="Minor Perk,Rogue,13" level="13" />
-                <select type="Perk" name="Minor Perk (rogue 19)" supports="Minor Perk,Rogue,19" level="19" />
+                <select type="Perk" name="Minor Perk (Rogue 7)" supports="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC|ID_STEVE_CONLEY_MINOR_PERKS_DETECTING|ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY|ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT|ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE|ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING|ID_STEVE_CONLEY_MINOR_PERKS_SMOKY|ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING" level="7" />
+                <select type="Perk" name="Minor Perk (Rogue 13)" supports="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC|ID_STEVE_CONLEY_MINOR_PERKS_DETECTING|ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY|ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT|ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE|ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING|ID_STEVE_CONLEY_MINOR_PERKS_SMOKY|ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING" level="13" />
+                <select type="Perk" name="Minor Perk (rogue 19)" supports="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC|ID_STEVE_CONLEY_MINOR_PERKS_DETECTING|ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY|ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT|ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE|ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING|ID_STEVE_CONLEY_MINOR_PERKS_SMOKY|ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING" level="19" />
             </rules>
         </element>
         <element name="Death Dealing Deck Major Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS">
@@ -145,8 +145,8 @@
                 <p class="indent">Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
             </description>
             <rules>
-                <select type="Perk" name="Major Perk (Rogue 9)" supports="Major Perk,Rogue,9" level="9" />
-                <select type="Perk" name="Major Perk (Rogue 20)" supports="Major Perk,Rogue,20" level="20" />
+                <select type="Perk" name="Major Perk (Rogue 9)" supports="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED|ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING|ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED|ID_STEVE_CONLEY_MAJOR_PERKS_FIERY|ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY|ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE|ID_STEVE_CONLEY_MAJOR_PERKS_QUICK" level="9" />
+                <select type="Perk" name="Major Perk (Rogue 20)" supports="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED|ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING|ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED|ID_STEVE_CONLEY_MAJOR_PERKS_FIERY|ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY|ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE|ID_STEVE_CONLEY_MAJOR_PERKS_QUICK" level="20" />
             </rules>
         </element>
         <element name="Acidic" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC">
