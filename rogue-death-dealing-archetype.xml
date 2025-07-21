@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -116,7 +116,7 @@
                 <description action="Reaction">If you draw a card from a magical deck and don't like what you've drawn, as a reaction, you can return the card to the deck and grab a new card. This prevents the initially drawn card from being activated.</description>
             </sheet>
             <rules>
-                <stat name="faster-hands-than-fate:uses" value=level />
+                <stat name="faster-hands-than-fate:uses" value="level:rogue" />
             </rules>
         </element>
         <element name="Death Dealing Deck Feature" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_POCKET_DIMENSION">
