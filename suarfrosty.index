@@ -4,7 +4,7 @@
 		<name>Homebrew Collection</name>
 		<description>Homebrew collection from various sources and some made by me as a concept, including some custom concepts I got from various conventions that I thought were interesting enough to add into aurora.</description>
 		<author url="https://github.com/SuarFrosty/Homebrew-Collection/tree/main">SuarFrosty Github</author>
-		<update version="0.1.4">
+		<update version="0.1.5">
 			<file name="suarfrosty.index" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/suarfrosty.index" />
 		</update>
 	</info>
