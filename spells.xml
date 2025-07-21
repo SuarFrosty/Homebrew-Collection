@@ -6,3 +6,65 @@
             <file name="spells.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
+        <element name="Electroarchanic Magic Pulse or EMP" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_EMP">
+            <suppports>Bard, Sorcerer, Warlock, Wizard</supports>
+            <description>
+                <p>A wave of anti-magic radiates out from you and cancels all but the most powerful magical effects</p>
+                <p>Within range, every magical spell effect of 4th level and below which can be dispelled, is dispelled. 5th level magical spells and greater are unaffected.</p>
+            </description>
+            <setters>
+                <set name="keywords">EMP</set>
+                <set name="level">5</set>
+                <set name="school">Abjuration</set>
+                <set name="time">1 action</set>
+                <set name="duration">Instantaneous</set>
+                <set name="range">120 feet</set>
+                <set name="hasVerbalComponent">true</set>
+                <set name="hasSomaticComponent">true</set>
+                <set name="hasMaterialComponent">false</set>
+                <set name="materialComponent"/>
+                <set name="isConcentration">false</set>
+                <set name="isRitual">false</set>
+            </setters>
+        </element>
+        <element name="Shuffle" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_SHUFFLE">
+            <suppports>Bard, Sorcerer, Warlock, Wizard, Rogue</supports>
+            <description>
+                <p>You warp improbabilities around a single character you can see within range. The target must make a Charisma saving throw. On a failure, at the top of the next round, the target must re-roll their initiative order.</p>
+            </description>
+            <setters>
+                <set name="keywords">Shuffle</set>
+                <set name="level">2</set>
+                <set name="school">Abjuration</set>
+                <set name="time">1 action</set>
+                <set name="duration">Instantaneous</set>
+                <set name="range">90 feet</set>
+                <set name="hasVerbalComponent">true</set>
+                <set name="hasSomaticComponent">true</set>
+                <set name="hasMaterialComponent">false</set>
+                <set name="materialComponent"/>
+                <set name="isConcentration">false</set>
+                <set name="isRitual">false</set>
+            </setters>
+        </element>
+        <element name="Shuffle the Deck" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_SHUFFLE_THE_DECK">
+            <suppports>Bard, Sorcerer, Warlock, Wizard, Rogue</supports>
+            <description>
+                <p>Improbability erupts invisibly all around you. All creatures in initiative order within range must re-roll their initiatives at the top of the next round. Creatures on a different plane are unaffected.</p>
+            </description>
+            <setters>
+                <set name="keywords">Shuffle</set>
+                <set name="level">4</set>
+                <set name="school">Abjuration</set>
+                <set name="time">1 action</set>
+                <set name="duration">Instantaneous</set>
+                <set name="range">120 feet</set>
+                <set name="hasVerbalComponent">true</set>
+                <set name="hasSomaticComponent">true</set>
+                <set name="hasMaterialComponent">false</set>
+                <set name="materialComponent"/>
+                <set name="isConcentration">false</set>
+                <set name="isRitual">false</set>
+            </setters>
+        </element>
+    </elements>
