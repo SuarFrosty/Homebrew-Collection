@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -624,7 +624,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS</set>
     </setters>
   </element>
-    <element name="Martial Strike Lvl 17" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_17">
+  <element name="Martial Strike Lvl 17" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_MARTIAL_STRIKE_17">
     <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT</supports>
     <setters>
         <set name="category">Homebrew Weapons</set>
@@ -762,6 +762,105 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="enhancement">3</set>
       <set name="rarity">Artifact</set>
       <set name="weapon">Martial Strike Lvl 17</set>
+    </setters>
+  </element>
+  <element name="Death Dealing Deck Lvl 3" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DEATH_DEALING_DECK_LVL_3">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <setters>
+        <set name="category">Homebrew Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0.5">0.5 lb.</set>
+        <set name="slot">twohand</set>
+        <set name="range">45/90</set>
+        <set name="damage" type="piercing">1d6</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
+    </setters>
+  </element>
+    <element name="Death Dealing Deck Lvl 11" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DEATH_DEALING_DECK_LVL_11">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <setters>
+        <set name="category">Homebrew Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0.5">0.5 lb.</set>
+        <set name="slot">twohand</set>
+        <set name="range">60/90</set>
+        <set name="damage" type="piercing">1d8</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
+    </setters>
+  </element>
+    <element name="Death Dealing Deck Lvl 17" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DEATH_DEALING_DECK_LVL_17">
+    <supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <setters>
+        <set name="category">Homebrew Weapons</set>
+        <set name="cost" currency="gp">N/A</set>
+        <set name="weight" lb="0.5">0.5 lb.</set>
+        <set name="slot">twohand</set>
+        <set name="range">60/120</set>
+        <set name="damage" type="piercing">1d10</set>
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
+    </setters>
+  </element>
+  <element name="Deck of Cards Lvl 3" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_3">
+    <description>
+      <p>You throw a random card. The weapon damage, the bonuses to hit and damage, and range increase at higher levels.</p>
+      <p><strong>Additional Effect</strong>: When you roll a 20 or above to hit with your Death Dealing Deck, your attack has an additional effect. The additional effect is determined by drawing a random card from a standard deck of playing/poker cards (leaving two jokers in the deck). After you draw a card, return it to the deck and re-shuffle.</p>
+      <p><strong>A unique design</strong>: The cards of your Death Dealing Deck look like no other.</p>
+      <p><strong>Do tell...</strong>: If the Detect Magic spell is cast on your Death Dealing Deck, it reveals its magic to be a mix of conjuration and abjuration.</p>
+      <p><strong>A fresh deck...</strong> If lost, misplaced, or destroyed, an identical replacement deck (with all its previous perks) can be conjured by spending one hour playing cards in a tavern, pub, or gambling hall.</p>
+      <p><strong>There can only be one...</strong>: You can't have more than one Death Dealing Deck at a time.</p>
+      <p><strong>Hands off</strong>: In the ndas of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0.5">0.5 lb.</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">1</set>
+      <set name="rarity">Unique</set>
+      <set name="weapon">Death Dealing Deck Lvl 3</set>
+    </setters>
+  </element>
+  <element name="Deck of Cards Lvl 11" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_11">
+    <description>
+      <p>You throw a random card. The weapon damage, the bonuses to hit and damage, and range increase at higher levels.</p>
+      <p><strong>Additional Effect</strong>: When you roll a 20 or above to hit with your Death Dealing Deck, your attack has an additional effect. The additional effect is determined by drawing a random card from a standard deck of playing/poker cards (leaving two jokers in the deck). After you draw a card, return it to the deck and re-shuffle.</p>
+      <p><strong>A unique design</strong>: The cards of your Death Dealing Deck look like no other.</p>
+      <p><strong>Do tell...</strong>: If the Detect Magic spell is cast on your Death Dealing Deck, it reveals its magic to be a mix of conjuration and abjuration.</p>
+      <p><strong>A fresh deck...</strong> If lost, misplaced, or destroyed, an identical replacement deck (with all its previous perks) can be conjured by spending one hour playing cards in a tavern, pub, or gambling hall.</p>
+      <p><strong>There can only be one...</strong>: You can't have more than one Death Dealing Deck at a time.</p>
+      <p><strong>Hands off</strong>: In the ndas of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0.5">0.5 lb.</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">2</set>
+      <set name="rarity">Unique</set>
+      <set name="weapon">Death Dealing Deck Lvl 11</set>
+    </setters>
+  </element>
+  <element name="Deck of Cards Lvl 17" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_17">
+    <description>
+      <p>You throw a random card. The weapon damage, the bonuses to hit and damage, and range increase at higher levels.</p>
+      <p><strong>Additional Effect</strong>: When you roll a 20 or above to hit with your Death Dealing Deck, your attack has an additional effect. The additional effect is determined by drawing a random card from a standard deck of playing/poker cards (leaving two jokers in the deck). After you draw a card, return it to the deck and re-shuffle.</p>
+      <p><strong>A unique design</strong>: The cards of your Death Dealing Deck look like no other.</p>
+      <p><strong>Do tell...</strong>: If the Detect Magic spell is cast on your Death Dealing Deck, it reveals its magic to be a mix of conjuration and abjuration.</p>
+      <p><strong>A fresh deck...</strong> If lost, misplaced, or destroyed, an identical replacement deck (with all its previous perks) can be conjured by spending one hour playing cards in a tavern, pub, or gambling hall.</p>
+      <p><strong>There can only be one...</strong>: You can't have more than one Death Dealing Deck at a time.</p>
+      <p><strong>Hands off</strong>: In the ndas of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0.5">0.5 lb.</set>
+      <set name="type">Weapon</set>
+      <set name="equippable">true</set>
+      <set name="enhancement">3</set>
+      <set name="rarity">Unique</set>
+      <set name="weapon">Death Dealing Deck Lvl 17</set>
     </setters>
   </element>
 </elements>
