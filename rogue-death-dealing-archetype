@@ -3,104 +3,340 @@
     <info>
         <name>Death Dealing Roguish Archetype</name>
         <update version="0.0.1">
-            <file name="rogue-divine-hand.xml" url="https://raw.githubusercontent.com/community-elements/elements-reddit/master/reddit/reddit-unearthed-arcana/blazing-dawn-players-companion/rogue-divine-hand.xml" />
+            <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
     
-    <element name="Divine Hand" type="Archetype" source="Blazing Dawn Player’s Companion" id="ID_JONOMAN3000_BDPC_ARCHETYPE_ROGUE_DIVINE_HAND">
+    <element name="Death Dealing" type="Archetype" source="Homebrew Collection" id="ID_WOTC_STEVE_CONLEY_DEATH_DEALING">
         <supports>Roguish Archetype</supports>
         <description>
-            <p>As a Divine Hand, you focus your training on the arts of death and execution. However, unlike an assassin you do not employ yourself in the service of mortals. You have a higher calling, and have devoted yourself into the service of a deity. With this deity you have formed a personal connection—they speak with you directly, ordering you to dispose of their enemies and giving you other such tasks. To assist you in your endeavors, your deity has granted you divine powers. These powers can help you slay any foe, but are especially effective against the enemies of your deity.</p>
-            <p class="indent">Divine Hands are often members of a clergy, working directly for the church of their deity. But others work outside of any organization, and perform their duties independently—working only for themselves and their deity.</p>
-            <div element="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_RIGHT_HAND_OF_GOD" />
-            <div element="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_JUDGEMENT" />
-            <div element="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_DIVINE_GIFT" />
-            <div element="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_HUNTER_OF_THE_UNHOLY" />
-            <div element="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_HOLY_EXECUTIONER" />
+            <p>Your extraordinary skills allow you to perfom otherwise impossible feats, bend probability to your will, and transform simple playing cards into devastating arcane weapons. The defining feature of this rogue archetype is the Death Dealing Deck of cards which you enchant at 3rd level.</p>
+            <p class="indent">Death Dealing rogues learned the art of the cards from a group known at the Order of The 52. This probably apocryphal cabal of 52 rogues are said to have been the first to master the art of dealing death. To this day, some believe that there are never more than 52 Death Dealing rogues at any time. Some say The 52 are a myth while others suggest this is playing right ino their hands.</p>
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_LUCKY_STREAK" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DECKED_OUT" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_CHEAT_DEATH" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_CUT_THE_DECK" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_NEVER_TELL_ME_THE_ODDS" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FIND_WEAKNESS" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_ACE_UP_YOUR_SLEEVE" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FASTER_HANDS_THAN_FATE" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_POCKET_DIMENSION" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MINOR_PERKS" />
+            <div element="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS" />
         </description>
         <sheet display="false">
             <description></description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_RIGHT_HAND_OF_GOD" level="3" />
-            <grant type="Archetype Feature" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_JUDGEMENT" level="3" />
-            <grant type="Archetype Feature" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_DIVINE_GIFT" level="9" />
-            <grant type="Archetype Feature" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_HUNTER_OF_THE_UNHOLY" level="13" />
-            <grant type="Archetype Feature" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_HOLY_EXECUTIONER" level="17" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_LUCKY_STREAK" level="3" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DECKED_OUT" level="3" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_CHEAT_DEATH" level="9" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_CUT_THE_DECK" level="9" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_NEVER_TELL_ME_THE_ODDS" level="13" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FIND_WEAKNESS" level="13" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_ACE_UP_YOUR_SLEEVE" level="17" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FASTER_HANDS_THAN_FATE" level="17" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_POCKET_DIMENSION" level="5" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MINOR_PERKS" level="7" />
+            <grant type="Archetype Feature" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS" level="9" />
         </rules>
     </element>
-        <element name="Right Hand of God" type="Archetype Feature" source="Blazing Dawn Player’s Companion" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_RIGHT_HAND_OF_GOD">
+        <element name="Lucky Streak" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_LUCKY_STREAK">
             <description>
-                <p>When you choose this archetype at 3rd level, you develop a closer relationship with your deity. You gain proficiency in the Religion skill. If you already have this proficiency, you instead gain proficiency in another skill of your choice.</p>
-                <p class="indent">Also, you gain the duty to hunt down the enemies of your deity. When you gain this archetype, determine with your DM what the enemies of your deity might be. They could be creature types (such as fiends and undead), specific types of humanoids, or even members of specific organizations. These enemies are considered your divine quarries. If your deity has many enemies, then only their most important ones might be considered your divine quarries, at the DMs discretion.</p>
-                <p class="indent">You have advantage on Wisdom (Survival) checks to track your divine quarries.</p>
+                <p>When you choose this roguish archetype at 3rd level, your understanding of playing cards deepens drastically. You are now proficient with improvised thrown weapons - including playing cards - and can add your proficiency bonus to attack rolls when throwing any improvised weapon.</p>
+                <p> If an ally within 60 feet critically hits a target you can see with a weapon or spell attack, you can use your reaction (if available) to attack the same target. If that initial target is unconscious, dead or destroyed, you may select a different target.</p>
             </description>
-            <sheet>
-                <description>You select the enemies of your deity and those creatures become your divine quarry. You have advantage on Survival checks to track your divine quarries.</description>
+            <sheet action="Reaction">
+                <description>If an ally within 60 feet critically hits a target you can see with a weapon or spell attack, you can use your reaction (if available) to attack the same target. If that initial target is unconscious, dead or destroyed, you may select a different target.</description>
             </sheet>
             <rules>
-                <select type="Proficiency" name="Skill Proficiency, Right Hand of God" option="true" supports="Skill" default="ID_PROFICIENCY_SKILL_RELIGION" />
+                <select type="Proficiency" name="Weapon Proficiency, Death Dealing" option="false" supports="Skill" default="ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS" />
             </rules>
         </element>
-        <element name="Judgement" type="Archetype Feature" source="Blazing Dawn Player’s Companion" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_JUDGEMENT">
+        <element name="Decked Out" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DECKED_OUT">
             <description>
-                <p>Also at 3rd level, you can mark a foe as the target of your divine ire. As a bonus action, you can choose one creature you can see within 120 feet of you. Until the end of the turn, you can use your Sneak Attack against that target even if you don’t have advantage on the attack roll, but not if you have disadvantage on it.</p>
-                <p class="indent">If you use your Sneak Attack against the marked target during the duration, you can expend a use of this feature to empower your strike. The attack’s damage type becomes radiant, and it gains one of the following bonus effects:</p>
-                <ul>
-                    <li>The target’s speed is reduced by 10 feet.</li>
-                    <li>The target can’t take reactions.</li>
-                    <li>The target can’t regain hit points.</li>
-                </ul>
-                <p class="indent">Each effect lasts until the start of your next turn. You can empower your attack a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest. If the target is one of your divine quarries, you can empower your strike against it without expending a use of this feature, even if this feature has no uses remaining.</p>
-            </description>
-            <sheet action="Bonus Action" usage="Empower: {{judgement:uses}}/Long Rest">
-                <description>You can choose one creature you can see within 120 feet of you that is the target of your divine ire. Until the end of the turn, you can use your Sneak Attack against that target even if you don’t have advantage on the attack roll, but not if you have disadvantage on it. If you use your Sneak Attack against the marked target during the duration, you can expend a use of this feature to empower your strike. The attack’s damage type becomes radiant, and it gains one of the following bonus effects: the target’s speed is reduced by 10 feet; the target can’t take reactions; or the target can’t regain hit points. If the target is one of your divine quarries, you can empower your strike against it without expending a use of this feature, even if this feature has no uses remaining.</description>
-            </sheet>
-            <rules>
-                <stat name="judgement:uses" value="1" bonus="base" />
-                <stat name="judgement:uses" value="wisdom:modifier" bonus="base" />
-            </rules>
-        </element>
-        <element name="Divine Gift" type="Archetype Feature" source="Blazing Dawn Player’s Companion" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_DIVINE_GIFT">
-            <description>
-                <p>At 9th level, your deity bestows divine magic upon you. You learn the <em>guidance</em> and <em>thaumaturgy</em> cantrips. Also, you can cast <em>detect magic</em>, <em>detect poison and disease</em>, and <em>augury</em>, but only as rituals. Your spellcasting ability for these spells is Wisdom.</p>
+                <p>Also at 3rd level, you are bestowed your own magical set of cards, a Death Dealing Deck.</p>
+                <p class="indent">You also have advantage on skill checks when gambling and cheating and working with cards of any type.</p>
             </description>
             <sheet>
-                <description>You can cast detect magic, detect poison and disease, and augury, as rituals.</description>
+                <description>You have advantage on skill checks when gambling, cheating and working with cards of any type.</description>
             </sheet>
-            <spellcasting name="Divine Hand" ability="Wisdom" prepare="true">
-                <list known="true">Divine Hand</list>
+        </element>
+        <element name="Cheat Death" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_CHEAT_DEATH">
+            <description>
+                <p>You may add your proficiency bonus to death saving throws.</p>
+            </description>
+            <sheet>
+                <description>You may add your proficiency bonus to death saving throws.</description>
+            </sheet>
+        </element>
+        <element name="Cut the Deck" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_CUT_THE_DECK">
+            <description>
+                <p>As a bonus action, you can swap your position with a friendly or enemy character in initiative order. This takes effect at the start of the next round. You can do this once per combat.</p>
+            </description>
+            <sheet usage="1/Combat" action="Bonus Action">
+                <description>You can swap your position with a friendly or enemy character in initiative order. This takes effect at the start of the next round.</description>
+            </sheet>
+        </element>
+        <element name="Never Tell me The Odds" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_NEVER_TELL_ME_THE_ODDS">
+            <description>
+                <p>Your bonus Sneak Attack damage can also apply to creatures you hit when you have Disadvantage on your attack roll.</p>
+            </description>
+            <sheet>
+                <description>Sneak Attack can be triggered while having Disadvantage on an attack roll.</description>
+            </sheet>
+        </element>
+        <element name="Find Weakness" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FIND_WEAKNESS">
+            <description>
+                <p>You spend one action analyzing one target you can see within 90 feet. You make an Investigation check against their AC. If successful, for the next ten minutes, your ignore any of a target's resistances. This has no effect on immunities. If you share this information with your allies, they also bypass the target's resistances.</p>
+            </description>
+            <sheet action="Action">
+                <description>Roll an Investigation check against an enemys AC within 90 feet of you, if successful, ignore resistances for ten minutes. If this information is shared to allies, they may bypass resistances for the duration aswell.</description>
+            </sheet>
+        </element>
+        <element name="Ace up Your Sleeve" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_ACE_UP_YOUR_SLEEVE">
+            <description>
+                <p>Your skill, magic, and mastery culminate in this Roguish Archetype Feature.</p>
+                <p class="indent">While wielding a weapon with which you are proficient, if you can see the target within range, and the target is not behind complete cover, you hit the target. You cannot miss. You do not roll to hit, and the attack has neither advantage nor disadvantage/ Sneak attack damage is applied/ You can do this once per long rest.</p>
+                <p class="indent">If you're using your Death Dealing deck, a card effect is triggered. Draw a card and apply the effects.</p>
+            </description>
+            <sheet usage="1/Long Rest">
+                <description>Attacking an at least semi-visible target within range, with a weapon you're proficient with, will hit, do not roll to attack. Apply sneak attack damage, and if using your Death Dealing Deck, draw a card for an additional effect.</description>
+            </sheet>
+        </element>
+        <element name="Faster Hands Than Fate" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FASTER_HANDS_THAN_FATE">
+            <description>
+                <p>Your skill and experience with magic and cards give you a chance ti cheat fate.</p>
+                <p class="indent"> If you draw a card from a magical deck and don't like the card you've drawn, you can - as a reaction - attempt to return the card to the deck as if you'd never drawn it. Your percentage chance of success is equal to your rogue level.</p>
+                <p class="indent">Example: A level-17 rogue would have a 17% chance of returning the card to the deck.<p>
+                <p class="indent">If successful, the card's effects are not triggered, the card is returned randomly to the deck as if it had never been drawn, and you quickly draw again (you can get the same card). If not successful, the card's effects play out as described.</p>
+                <p class="indent"> This feature doesn't work with your Death Dealing Deck of cards.</p>
+            </description>
+            <sheet usage="{{faster-hands-than-fate:uses}}% chance">
+                <description action="Reaction">If you draw a card from a magical deck and don't like what you've drawn, as a reaction, you can return the card to the deck and grab a new card. This prevents the initially drawn card from being activated.</description>
+            </sheet>
+            <rules>
+                <stat name="faster-hands-than-fate:uses" value=level />
+            </rules>
+        </element>
+        <element name="Death Dealing Deck Feature" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_POCKET_DIMENSION">
+            <description>
+                <p>You can use your bonus action to store your Deck in a pocket dimension. You can use another bonus action to summon it back.</p>
+            </description>
+            <sheet action="Bonus Action">
+                <description>Store or retrieve your Death Dealing Deck from a pocket dimension.</description>
+            </sheet>
+        </element>
+        <element name="Death Dealing Deck Minor Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MINOR_PERKS">
+            <description>
+                <p>Your Deck gains a <strong>Minor Perk</strong></p>
+                <p class="indent">Your Deck gains a minor perk of your choice at levels 7,13, and 19. Each time you level up in this class, you can change your mind and select a different Minor Perk. You must be attuned to and wielding your Death Dealing Deck to gain and/or activate any of these perks. Daily uses recharge at dawn.</p>
+            </description>
+            <sheet display="false"/>
+            <rules>
+                <select type="Perk" name="Minor Perk (Rogue 7)" supports="Minor Perk,Rogue,7" level="7" />
+                <select type="Perk" name="Minor Perk (Rogue 13)" supports="Minor Perk,Rogue,13" level="13" />
+                <select type="Perk" name="Minor Perk (rogue 19)" supports="Minor Perk,Rogue,19" level="19" />
+            </rules>
+        </element>
+        <element name="Death Dealing Deck Major Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS">
+            <description>
+                <p>Your deck gains a <strong>Major Perk</strong></p>
+                <p class="indent>Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
+            </description>
+            <rules>
+                <select type="Perk" name="Major Perk (Rogue 9)" supports="Major Perk,Rogue,9" level="9" />
+                <select type="Perk" name="Major Perk (Rogue 20)" supports="Major Perk,Rogue,20" level="20" />
+            </rules>
+        </element>
+        <element name="Acidic" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Once per day, as an action, you throw a conjured card at a creature within 60 feet. The creature must make a DC 15 dexterity saving throw. On a failed save, the target take 6d4 acid damage immediately and 3d4 acid damage at the end of its next turn. On a successful save, the target takes 3d4 acid damage immediately and no aditional acid damage on the next turn.</p>
+            </description>
+            <sheet usage=1/day>
+                <description action="Action">Throw a conjured card at a creature within 60 feet, that creature must make a DC 15 dexterity saving throw. On a failed save, the target take 6d4 acid damage immediately and 3d4 acid damage at the end of its next turn. On a successful save, the target takes 3d4 acid damage immediately and no aditional acid damage on the next turn.</description>
+            </sheet>
+        </element>
+        <element name="Detecting" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_DETECTING">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Your Death Dealing Deck functions as a <strong>Wand of Detection</strong></p>
+            </description>
+            <sheet>
+                <description>Your Death Dealing Deck functions as a Wand of Detection</description>
+            </sheet>
+        </element>
+        <element name="Illusory" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Once per day, as an action, your throw a conjured card at a point within 60 feet which projects a believable illusion in a 10-foot cube which last for 10 minuts. The image can't create sound, light, smell, or other sensory effect. Physical interaction with the image reveals it be an illusion. If a creature uses its action to examine the illusion, the creature can determine that it is unreal with a successful DC 15 intelligence. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>
+            </description>
+            <sheet usage="1/day" action="Action">
+                <description>Throw a conjured card at a point within 60 feet which projects a believable illusion in a 10-foot cube for 10 minutes.</description>
+            </sheet>
+        </element>
+        <element name="Incandescent" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Once per day, you throw a card at a point within 40 feet. The card bursts in a 20-foot cube of radiant mist. Each creature in the area must make a DC 15 dexterity saving throw or be outlined in light. For one minute, the creature sheds light in a 10-foot radius. Any attack roll against an affected creature has advantage if the target can see it, and the affected creature can't benefit from being invisible</p>
+            </description>
+            <sheet usage="1/day" action="Action">
+                <description>Throw a card at a point wihtin 40 feet, the card bursts in a 20-foot cube of radiant mist. Each creature in the area must make a DC 15 dexterity saving throw or be outlined in light for one minute. The creature sheds light in a 10-foot radius, cannot benefit from being invisible, and any attack roll against the creature has advantage.</description>
+            </sheet>
+        </element>
+        <element name="Multi-Purpose" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Your Death Dealing Deck, as an action, can transmogifry to serve as thieves tools, a crowbar, or a messkit. Use of an action can return the deck to its original, deadly form.</p>
+            </description>
+            <sheet action="Action">
+                <description>Transmogrify your Death Dealing Deck to serve as thieves tools, a crowbar, or a messkit.</description>
+            </sheet>
+        </element>
+        <element name="Shredding" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Twice per day, as an action, you throw a hand full of conjured cards in a 15-foot cone. Each creature within the cone must make a DC 15 dexterity saving throw or take 6d4 slashing damage, half as much on a successful save.</p>
+            </description>
+            <sheet usage="2/day" action="Action">
+                <description>Throw a hand full of conjured cards in a 15-foot cone. Each creature within the cone must make a DC 15 dexterity saving throw or take 6d4 slashing damage, half as much on a successful save.</description>
+            </sheet>
+        </element>
+        <element name="Smoky" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_SMOKY">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Twice per day, as a bonus action, you throw a conjured card at a point within 30 feet. Thick, nonmagical smoke fills a 20-foot radius, obscuring vision and blocking line of sight. The smoke lasts for 5 minutes. A moderate or strong wind will disperse the smoke are two rounds.</p>
+            </description>
+            <sheet usage="2/day" action="Bonus Action">
+                <description>Throw a conjured card at a point within 30 feet. Thick nonmagical smoke fills a 20-foot radius, obscuring vision and blocking line of sight, the smoke lasts for 5 minutes or 2 rounds of combat.</description>
+            </sheet>
+        </element>
+        <element name="Whirling" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING">
+            <supports>Minor Perk</supports>
+            <description>
+                <p>Once per day, as an action, your Deck creates a whirlwind of lacerating cards around you. A creature takes 4d4 slashing damage when it becomes adjacent to you for the first time on a turn or starts its turn adjacent to you. This effect moves with you and lasts one minute or until your cancel it with an action.</p>
+            </description>
+            <sheet usage="1/day" action="Action">
+                <description>Your Deck creates a whirlwind of lacerating cards around you for one minute or until you cnacel with an action. A creature takes 4d4 slashing damage when it becomes adjacent to your for the first time on a turn or starts its turn adjacent to you.</description>
+            </sheet>
+        </element>
+        <element name="Armored" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED">
+            <supports>Major Perks</supports>
+            <description>
+                <p>While carrying your Deck you gain +2 to your Armor Class.</p>
+            </description>
+            <rules>
+                <stat name="ac:misc" value=2 equipped="Deck of Cards Lvl 3, Deck of Cards Lvl 11, Deck of Cards Lvl 17" />
+            </rules>
+        </element>
+        <element name="Conjuring" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING">
+            <supports>Major Perks</supports>
+            <description>
+                <p>Once per day, you can use an action to cast the <strong>Conjure Cardlings</strong> spell.</p>
+            </description>
+            <sheet usage="1/day" action="Action">
+                <description>Once per day, you can use an action to cast Conjure Cardlings.</description>
+            </sheet>
+            <spellcasting name="Death Dealing" ability="Intelligence" prepare="true">
+                <list known="true">Death Dealing"</list>
             </spellcasting>
             <rules>
-                <grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
-                <grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
-                <grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" spellcasting="Divine Hand"  known="true" prepared="true" />
-                <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" spellcasting="Divine Hand"  known="true" prepared="true" />
-                <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" spellcasting="Divine Hand" known="true" prepared="false" />
-                <grant type="Spell" id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE" spellcasting="Divine Hand" known="true" prepared="false" />
-                <grant type="Spell" id="ID_PHB_SPELL_AUGURY" spellcasting="Divine Hand" known="true" prepared="false" />                
+                <grant type="Spell" id="ID_STEVE_CONLEY_SPELL_CONJURE_CARDLINGS" spellcasting="Death Dealing" known="true" prepared="true />
             </rules>
         </element>
-        <element name="Hunter of the Unholy" type="Archetype Feature" source="Blazing Dawn Player’s Companion" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_HUNTER_OF_THE_UNHOLY">
+        <element name="Fiery" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FIERY">
+            <supports>Major Perks</supports>
             <description>
-                <p>Starting at 13th level, your deity grants you knowledge to assist you in tracking and slaying your foes. When you mark a creature with your Judgement feature, you learn of any damage resistances and/or immunities that the creature possesses.</p>
-                <p class="indent">Also, you can call upon your deity as a bonus action, and have them reveal their enemies to you. Until the end of your next turn, you know the location of any of your divine quarries within 120 feet of you that are not behind total cover. You know the creature type of any being you sense, but not its specific identity. You can take this bonus action a number of times equal to 1 + your Wisdom modifier. When you finish a long rest, you regain all expended uses.</p>
+                <p>Once per day, as an action, you throw a card at a point within 90 feet which then erupts in flame. Each creature within a 20 foot radius must make a DC 15 dexterity saving throw. A target take 5d6 fire damage on a failed save or half as much on a successful one. The fire spreads arounds corners and ignites flammable objects in the area that aren't being worn or carried.</p>
             </description>
-            <sheet usage="{{hunter-of-the-unholy:uses}}/Long Rest">
-                <description action="Bonus Action">You can call upon your deity and until the end of your next turn, you know the location of any of your divine quarries within 120 feet of you that are not behind total cover. You know the creature type of any being you sense, but not its specific identity. Also, when you mark a creature with your Judgement feature, you learn of any damage resistances and/or immunities that the creature possesses.</description>
+            <sheet usage="1/day" action="Action">
+                <description>Throw a card at a point within 90 feet which then erupts in flame. Each creature within a 20-foot radius must make a DC 15 dexterity saving throw or take 5d6 fire damage, half as much on a successful save. The fire spreads around corners and ignites flammable objects that aren't being worn or carried.</description>
             </sheet>
+        </element>
+        <element name="Fortified" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED">
+            <supports>Major Perks</supports>
+            <description>
+                <p>Your own House of Cards!</p>
+                <p class="indent">Once per day, you can use an action to place your Deck on the ground and it rapidly grows into a fortress that remains until you use an Action that dismisses it. You can only dismiss the fortress if it is empty. For the Fortress' stats, see the item <strong>Instant Fortress</strong>. If the fortress is destroyed, so is your Deck of cards and a new Deck must be conjured.</p>
+            </description>
+            <sheet usage="1/day" action="Action">
+                <description>You can place your Deck on the ground and it rapidly grows into a fortress that remains until you use an action that dismisses it. This fortress uses the stats of the item Instant Fortress and cannot be dismissed unless it is empty. If this fortress is destroyed, so is your Deck and a new Deck must be conjured.</description>
+            </sheet>
+        </element>
+        <element name="Hearty" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY">
+            <supports>Major Perks</supports>
+            <description>
+                <p>Your Death Dealing Deck acts a lesser <strong>Amulet of Health</strong> and grants you a 17 Constitution.</p>
+            </description>
             <rules>
-                <stat name="hunter-of-the-unholy:uses" value="1" />
-                <stat name="hunter-of-the-unholy:uses" value="wisdom:modifier" />
+                <stat name="constitution:score:set" value="17" bonus="base" />
             </rules>
         </element>
-        <element name="Holy Executioner" type="Archetype Feature" source="Blazing Dawn Player’s Companion" id="ID_JONOMAN3000_BDPC_ARCHETYPE_FEATURE_DIVINE_HAND_HOLY_EXECUTIONER">
+        <element name="Indomitable" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE">
+            <supports>Major Perks</supports>
             <description>
-                <p>Beginning at 17th level, your divine judgement becomes especially harsh. Whenever you use your Judgement feature against a creature and choose to empower your strike, your attack deals an additional 4d6 radiant damage to your target.</p>
+                <p>You can't be charmed, frightened, stunned, or petrified.</p>
             </description>
             <sheet>
-                <description>Whenever you use your Judgement feature against a creature and choose to empower your strike, your attack deals an additional 4d6 radiant damage to your target.</description>
+                <description>You can't be charmed, frightened, stunned, or petrified.</description>
             </sheet>
         </element>
-    
+        <element name="Quick" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_QUICK">
+            <supports>Major Perks</supports>
+            <description>
+                <p>While carrying your Deck, you gain +2 bonus to your initiative rolls.</p>
+            </description>
+            <rules>
+                <stat name="initiative" value="2" />
+            </rules>
+        </element>
+        </element>
+        <element name="Conjure Cardlings" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_CONJURE_CARDLINGS">
+            <suppports>Bard, Rogue</supports>
+            <description>
+                <p>Your magical energy coalesces into the form of a Tiny flying creature in an unoccupied space that you can see within range. The creature lasts for the spell's duation and obeys your verbal commands. If a Cardling drops to 0 hit points, the spell ends. The Cardling counts as an ally for the purposes of Sneak Attack.</p>
+                <p class="indent">The suit of a conjured Cardling is determined randomly. Roll 1d4:</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>d4</td>
+                            <td>Cardling Type</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Spade</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Club</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Diamond</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Heart</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </description>
+            <setters>
+                <set name="keywords">conjure</set>
+                <set name="level">2</set>
+                <set name="school">Conjuration</set>
+                <set name="time">1 action</set>
+                <set name="duration">Concentration, up to 10 minutes</set>
+                <set name="range">90 feet</set>
+                <set name="hasVerbalComponent">true</set>
+                <set name="hasSomaticComponent">true</set>
+                <set name="hasMaterialComponent">false</set>
+                <set name="materialComponent"/>
+                <set name="isConcentration">true</set>
+                <set name="isRitual">false</set>
+            </setters>
+        </element>
 </elements>
