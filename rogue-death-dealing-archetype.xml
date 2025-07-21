@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -108,7 +108,7 @@
             <description>
                 <p>Your skill and experience with magic and cards give you a chance ti cheat fate.</p>
                 <p class="indent"> If you draw a card from a magical deck and don't like the card you've drawn, you can - as a reaction - attempt to return the card to the deck as if you'd never drawn it. Your percentage chance of success is equal to your rogue level.</p>
-                <p class="indent">Example: A level-17 rogue would have a 17% chance of returning the card to the deck.<p>
+                <p class="indent">Example: A level-17 rogue would have a 17% chance of returning the card to the deck.</p>
                 <p class="indent">If successful, the card's effects are not triggered, the card is returned randomly to the deck as if it had never been drawn, and you quickly draw again (you can get the same card). If not successful, the card's effects play out as described.</p>
                 <p class="indent"> This feature doesn't work with your Death Dealing Deck of cards.</p>
             </description>
