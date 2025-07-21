@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -154,7 +154,7 @@
             <description>
                 <p>Once per day, as an action, you throw a conjured card at a creature within 60 feet. The creature must make a DC 15 dexterity saving throw. On a failed save, the target take 6d4 acid damage immediately and 3d4 acid damage at the end of its next turn. On a successful save, the target takes 3d4 acid damage immediately and no aditional acid damage on the next turn.</p>
             </description>
-            <sheet usage=1/day>
+            <sheet usage="1/day">
                 <description action="Action">Throw a conjured card at a creature within 60 feet, that creature must make a DC 15 dexterity saving throw. On a failed save, the target take 6d4 acid damage immediately and 3d4 acid damage at the end of its next turn. On a successful save, the target takes 3d4 acid damage immediately and no aditional acid damage on the next turn.</description>
             </sheet>
         </element>
