@@ -863,7 +863,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">Death Dealing Deck Lvl 17</set>
     </setters>
   </element>
-  <element name="Razor of Ockam" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_RAZOR_OF_OCKAM"
+  <element name="Razor of Ockam" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_RAZOR_OF_OCKAM">
     <description>
       <p>This impressive sword is among the finest weapons ever made and grants a +3 to attack and damage rolls. While indestructible and perfectly balanced, this weapon is in fact, not magical. It is a product of craft and ingenuity, not sorcery.</p>
     </description>
