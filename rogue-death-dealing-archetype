@@ -142,7 +142,7 @@
         <element name="Death Dealing Deck Major Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS">
             <description>
                 <p>Your deck gains a <strong>Major Perk</strong></p>
-                <p class="indent>Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
+                <p class="indent">Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
             </description>
             <rules>
                 <select type="Perk" name="Major Perk (Rogue 9)" supports="Major Perk,Rogue,9" level="9" />
