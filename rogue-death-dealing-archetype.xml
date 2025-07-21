@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -50,8 +50,11 @@
                 <description>If an ally within 60 feet critically hits a target you can see with a weapon or spell attack, you can use your reaction (if available) to attack the same target. If that initial target is unconscious, dead or destroyed, you may select a different target.</description>
             </sheet>
             <rules>
-                <select type="Proficiency" name="Weapon Proficiency, Death Dealing" option="false" supports="Skill" default="ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS" />
+                <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS"/>
             </rules>
+        </element>
+        <element name="Weapon Proficiency (Improvised)" type="Proficiency" source="Homebrew Collection" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS">
+            <requirements>ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_LUCKY_STREAK</requirements>
         </element>
         <element name="Decked Out" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DECKED_OUT">
             <description>
@@ -134,9 +137,9 @@
             </description>
             <sheet display="false"/>
             <rules>
-                <select type="Perk" name="Minor Perk (Rogue 7)" supports="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC|ID_STEVE_CONLEY_MINOR_PERKS_DETECTING|ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY|ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT|ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE|ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING|ID_STEVE_CONLEY_MINOR_PERKS_SMOKY|ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING" level="7" />
-                <select type="Perk" name="Minor Perk (Rogue 13)" supports="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC|ID_STEVE_CONLEY_MINOR_PERKS_DETECTING|ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY|ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT|ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE|ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING|ID_STEVE_CONLEY_MINOR_PERKS_SMOKY|ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING" level="13" />
-                <select type="Perk" name="Minor Perk (rogue 19)" supports="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC|ID_STEVE_CONLEY_MINOR_PERKS_DETECTING|ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY|ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT|ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE|ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING|ID_STEVE_CONLEY_MINOR_PERKS_SMOKY|ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING" level="19" />
+                <select type="Archetype Feature" name="Minor Perk (Rogue 7)" supports="Minor Perk, Death Dealing Rogue, 7" level="7" />
+                <select type="Archetype Feature" name="Minor Perk (Rogue 13)" supports="Minor Perk, Death Dealing Rogue, 13" level="13" />
+                <select type="Archetype Feature" name="Minor Perk (rogue 19)" supports="Minor Perk, Death Dealing Rogue, 19" level="19" />
             </rules>
         </element>
         <element name="Death Dealing Deck Major Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS">
@@ -145,12 +148,12 @@
                 <p class="indent">Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
             </description>
             <rules>
-                <select type="Perk" name="Major Perk (Rogue 9)" supports="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED|ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING|ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED|ID_STEVE_CONLEY_MAJOR_PERKS_FIERY|ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY|ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE|ID_STEVE_CONLEY_MAJOR_PERKS_QUICK" level="9" />
-                <select type="Perk" name="Major Perk (Rogue 20)" supports="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED|ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING|ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED|ID_STEVE_CONLEY_MAJOR_PERKS_FIERY|ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY|ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE|ID_STEVE_CONLEY_MAJOR_PERKS_QUICK" level="20" />
+                <select type="Archetype Feature" name="Major Perk (Rogue 9)" supports="Major Perk, Death Dealing Rogue, 9" level="9" />
+                <select type="Archetype Feature" name="Major Perk (Rogue 20)" supports="Major Perk, Death Dealing Rogue, 20" level="20" />
             </rules>
         </element>
-        <element name="Acidic" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC">
-            <supports>Minor Perk</supports>
+        <element name="Acidic" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ACIDIC">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Once per day, as an action, you throw a conjured card at a creature within 60 feet. The creature must make a DC 15 dexterity saving throw. On a failed save, the target take 6d4 acid damage immediately and 3d4 acid damage at the end of its next turn. On a successful save, the target takes 3d4 acid damage immediately and no aditional acid damage on the next turn.</p>
             </description>
@@ -158,8 +161,8 @@
                 <description action="Action">Throw a conjured card at a creature within 60 feet, that creature must make a DC 15 dexterity saving throw. On a failed save, the target take 6d4 acid damage immediately and 3d4 acid damage at the end of its next turn. On a successful save, the target takes 3d4 acid damage immediately and no aditional acid damage on the next turn.</description>
             </sheet>
         </element>
-        <element name="Detecting" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_DETECTING">
-            <supports>Minor Perk</supports>
+        <element name="Detecting" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_DETECTING">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Your Death Dealing Deck functions as a <strong>Wand of Detection</strong></p>
             </description>
@@ -167,8 +170,8 @@
                 <description>Your Death Dealing Deck functions as a Wand of Detection</description>
             </sheet>
         </element>
-        <element name="Illusory" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY">
-            <supports>Minor Perk</supports>
+        <element name="Illusory" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_ILLUSORY">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Once per day, as an action, your throw a conjured card at a point within 60 feet which projects a believable illusion in a 10-foot cube which last for 10 minuts. The image can't create sound, light, smell, or other sensory effect. Physical interaction with the image reveals it be an illusion. If a creature uses its action to examine the illusion, the creature can determine that it is unreal with a successful DC 15 intelligence. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>
             </description>
@@ -176,8 +179,8 @@
                 <description>Throw a conjured card at a point within 60 feet which projects a believable illusion in a 10-foot cube for 10 minutes.</description>
             </sheet>
         </element>
-        <element name="Incandescent" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT">
-            <supports>Minor Perk</supports>
+        <element name="Incandescent" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_INCANDESCENT">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Once per day, you throw a card at a point within 40 feet. The card bursts in a 20-foot cube of radiant mist. Each creature in the area must make a DC 15 dexterity saving throw or be outlined in light. For one minute, the creature sheds light in a 10-foot radius. Any attack roll against an affected creature has advantage if the target can see it, and the affected creature can't benefit from being invisible</p>
             </description>
@@ -185,8 +188,8 @@
                 <description>Throw a card at a point wihtin 40 feet, the card bursts in a 20-foot cube of radiant mist. Each creature in the area must make a DC 15 dexterity saving throw or be outlined in light for one minute. The creature sheds light in a 10-foot radius, cannot benefit from being invisible, and any attack roll against the creature has advantage.</description>
             </sheet>
         </element>
-        <element name="Multi-Purpose" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE">
-            <supports>Minor Perk</supports>
+        <element name="Multi-Purpose" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_MULTI_PURPOSE">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Your Death Dealing Deck, as an action, can transmogifry to serve as thieves tools, a crowbar, or a messkit. Use of an action can return the deck to its original, deadly form.</p>
             </description>
@@ -194,8 +197,8 @@
                 <description>Transmogrify your Death Dealing Deck to serve as thieves tools, a crowbar, or a messkit.</description>
             </sheet>
         </element>
-        <element name="Shredding" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING">
-            <supports>Minor Perk</supports>
+        <element name="Shredding" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_SHREDDING">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Twice per day, as an action, you throw a hand full of conjured cards in a 15-foot cone. Each creature within the cone must make a DC 15 dexterity saving throw or take 6d4 slashing damage, half as much on a successful save.</p>
             </description>
@@ -203,8 +206,8 @@
                 <description>Throw a hand full of conjured cards in a 15-foot cone. Each creature within the cone must make a DC 15 dexterity saving throw or take 6d4 slashing damage, half as much on a successful save.</description>
             </sheet>
         </element>
-        <element name="Smoky" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_SMOKY">
-            <supports>Minor Perk</supports>
+        <element name="Smoky" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_SMOKY">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Twice per day, as a bonus action, you throw a conjured card at a point within 30 feet. Thick, nonmagical smoke fills a 20-foot radius, obscuring vision and blocking line of sight. The smoke lasts for 5 minutes. A moderate or strong wind will disperse the smoke are two rounds.</p>
             </description>
@@ -212,8 +215,8 @@
                 <description>Throw a conjured card at a point within 30 feet. Thick nonmagical smoke fills a 20-foot radius, obscuring vision and blocking line of sight, the smoke lasts for 5 minutes or 2 rounds of combat.</description>
             </sheet>
         </element>
-        <element name="Whirling" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING">
-            <supports>Minor Perk</supports>
+        <element name="Whirling" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MINOR_PERKS_WHIRLING">
+            <supports>Minor Perk, Death Dealing Rogue, 7, 13, 19</supports>
             <description>
                 <p>Once per day, as an action, your Deck creates a whirlwind of lacerating cards around you. A creature takes 4d4 slashing damage when it becomes adjacent to you for the first time on a turn or starts its turn adjacent to you. This effect moves with you and lasts one minute or until your cancel it with an action.</p>
             </description>
@@ -221,8 +224,8 @@
                 <description>Your Deck creates a whirlwind of lacerating cards around you for one minute or until you cnacel with an action. A creature takes 4d4 slashing damage when it becomes adjacent to your for the first time on a turn or starts its turn adjacent to you.</description>
             </sheet>
         </element>
-        <element name="Armored" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED">
-            <supports>Major Perks</supports>
+        <element name="Armored" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_ARMORED">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>While carrying your Deck you gain +2 to your Armor Class.</p>
             </description>
@@ -230,8 +233,8 @@
                 <stat name="ac:misc" value="2" equipped="Deck of Cards Lvl 3, Deck of Cards Lvl 11, Deck of Cards Lvl 17" />
             </rules>
         </element>
-        <element name="Conjuring" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING">
-            <supports>Major Perks</supports>
+        <element name="Conjuring" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>Once per day, you can use an action to cast the <strong>Conjure Cardlings</strong> spell.</p>
             </description>
@@ -245,8 +248,8 @@
                 <grant type="Spell" id="ID_STEVE_CONLEY_SPELL_CONJURE_CARDLINGS" spellcasting="Death Dealing" known="true" prepared="true" />
             </rules>
         </element>
-        <element name="Fiery" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FIERY">
-            <supports>Major Perks</supports>
+        <element name="Fiery" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FIERY">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>Once per day, as an action, you throw a card at a point within 90 feet which then erupts in flame. Each creature within a 20 foot radius must make a DC 15 dexterity saving throw. A target take 5d6 fire damage on a failed save or half as much on a successful one. The fire spreads arounds corners and ignites flammable objects in the area that aren't being worn or carried.</p>
             </description>
@@ -254,8 +257,8 @@
                 <description>Throw a card at a point within 90 feet which then erupts in flame. Each creature within a 20-foot radius must make a DC 15 dexterity saving throw or take 5d6 fire damage, half as much on a successful save. The fire spreads around corners and ignites flammable objects that aren't being worn or carried.</description>
             </sheet>
         </element>
-        <element name="Fortified" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED">
-            <supports>Major Perks</supports>
+        <element name="Fortified" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_FORTIFIED">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>Your own House of Cards!</p>
                 <p class="indent">Once per day, you can use an action to place your Deck on the ground and it rapidly grows into a fortress that remains until you use an Action that dismisses it. You can only dismiss the fortress if it is empty. For the Fortress' stats, see the item <strong>Instant Fortress</strong>. If the fortress is destroyed, so is your Deck of cards and a new Deck must be conjured.</p>
@@ -264,8 +267,8 @@
                 <description>You can place your Deck on the ground and it rapidly grows into a fortress that remains until you use an action that dismisses it. This fortress uses the stats of the item Instant Fortress and cannot be dismissed unless it is empty. If this fortress is destroyed, so is your Deck and a new Deck must be conjured.</description>
             </sheet>
         </element>
-        <element name="Hearty" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY">
-            <supports>Major Perks</supports>
+        <element name="Hearty" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_HEARTY">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>Your Death Dealing Deck acts a lesser <strong>Amulet of Health</strong> and grants you a 17 Constitution.</p>
             </description>
@@ -273,8 +276,8 @@
                 <stat name="constitution:score:set" value="17" bonus="base" />
             </rules>
         </element>
-        <element name="Indomitable" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE">
-            <supports>Major Perks</supports>
+        <element name="Indomitable" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_INDOMITABLE">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>You can't be charmed, frightened, stunned, or petrified.</p>
             </description>
@@ -282,8 +285,8 @@
                 <description>You can't be charmed, frightened, stunned, or petrified.</description>
             </sheet>
         </element>
-        <element name="Quick" type="Perk" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_QUICK">
-            <supports>Major Perks</supports>
+        <element name="Quick" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_QUICK">
+            <supports>Major Perk, Death Dealing Rogue, 9, 20<</supports>
             <description>
                 <p>While carrying your Deck, you gain +2 bonus to your initiative rolls.</p>
             </description>
