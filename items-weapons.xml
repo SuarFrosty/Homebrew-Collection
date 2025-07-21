@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.4">
+    <update version="0.0.5">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -770,7 +770,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0.5">0.5 lb.</set>
-        <set name="slot">twohand</set>
+        <set name="slot">onehand</set>
         <set name="range">45/90</set>
         <set name="damage" type="piercing">1d6</set>
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
@@ -782,7 +782,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0.5">0.5 lb.</set>
-        <set name="slot">twohand</set>
+        <set name="slot">onehand</set>
         <set name="range">60/90</set>
         <set name="damage" type="piercing">1d8</set>
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
@@ -794,7 +794,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="category">Homebrew Weapons</set>
         <set name="cost" currency="gp">N/A</set>
         <set name="weight" lb="0.5">0.5 lb.</set>
-        <set name="slot">twohand</set>
+        <set name="slot">onehand</set>
         <set name="range">60/120</set>
         <set name="damage" type="piercing">1d10</set>
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
