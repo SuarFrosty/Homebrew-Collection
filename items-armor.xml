@@ -2,34 +2,10 @@
 <elements>
   <info>
     <name>Armor</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="items-armor.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
-  <element name="Necrolight" type="Armor" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_NECRO">
-    <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
-    <setters>
-      <set name="category">Armor</set>
-      <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="0">0 lb.</set>
-      <set name="slot">body</set>
-      <set name="armor">Heavy</set>
-      <set name="armorClass">25</set>
-    </setters>
-    <rules>
-      <stat name="ac:armored:armor" value="18"/>
-    </rules>
-  </element>
-  <element name="Cloak" type="Armor" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_CLOAK">
-    <setters>
-      <set name="category">Armor</set>
-      <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="0">0 lb.</set>
-      <set name="slot">neck</set>
-      <set name="armor">Light</set>
-      <set name="armorClass">0</set>
-    </setters>
-  </element>
   <element name="Hero Shield" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_HERO_SHIELD">
     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT_</supports>
     <description>
@@ -54,59 +30,6 @@
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING"/>
       <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING"/>
     </rules>
-  </element>
-  <element name="Necrolight" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_NECROLIGHT">
-    <description>
-      <p>The personal cloak of Death. This cloak melts into the shadows when worn. When you wear this cloak you have advantage on Dexterity (Stealth) checks. Your Dexterity also increases to 26 if not already.</p>
-      <p>As a cloak of Death, your connection with death makes you continuously harder to dispatch, your AC has been increased to 25 if not already.</p>
-      <p>Since this is a cloak, it does not count as armour, therefore no Dexterity (Stealth) disadvantages will be made against you.</p>
-      <p>You also gain the ability to teleport 200ft in any direction as a bonus action.</p>
-      <p>When a critical hit or surprise attack is made against you, as a reaction, you can choose to evade or make their hit miss altogether.</p>
-      <p>Unkillable: When you die while wearing this cloak, true resurrection will be cast on you once. The cloak regains use of this effect at dusk.</p>
-      <p>Destroying the Necrolight. Cannot be destroyed by any other means than Death himself.</p>
-    </description>
-    <setters>
-      <set name="category">Homebrew Armor</set>
-      <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="0">0 lb.</set>
-      <set name="rarity">Artifact</set>
-      <set name="slot">body</set>
-      <set name="type">Armor</set>
-      <set name="armor">Necrolight</set>
-      <set name="enhancement">7</set>
-      <set name="attunement">true</set>
-    </setters>
-    <rules>
-      <stat name="ac:armored:enhancement" value="7" bonus="enhancement"/>
-    </rules>
-  </element>
-  <element name="Robe of Shadows" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_ROBE_OF_SHADOWS">
-    <description>
-      <p>When Vorinthar was chosen as the first Reaper, he crafted himself a special pair of robes to impersonate Death itself. The robes are black without a hood, and made of pure shadow.</p>
-      <p>Death's Blessing: If you die while wearing the Robe of Shadows, the robes vanish and you regain 10 hit points.</p>
-      <p>Magical Defense: When hit by magical damage of any kind, Robe of Shadows has an armor class of 18. Otherwise they are 100% translucent and have an armor class of 0.</p>
-      <p>Shadow Cast: Once per day you may choose to activate a 1d6 random magical effect from the list below, recharging each day at dawn.
-      <ul>
-        <li>1: Reroll</li>
-        <li>2: You turn completely invisible for the next 2d4 hours. The spell ends early if you use it just before dawn.</li>
-        <li>3: A Fey creature of your choice, up to a challenge rating of 1, is summoned to obey your will for the next hour. Afterward the Fey vanishes.</li>
-        <li>4: A Fey creature of your choice, up to a challenge rating of 1, is summoned to obey your will for the next hour. Afterward the Fey vanishes.</li>
-        <li>5: You turn 75% transparent for the next 2d4 hours. The spell ends early if you use it just before dawn.</li>
-        <li>6: The robes cast Disguise Self, making yourself -including your clothing, armor, weapons, and other belongings - look different for the next hour.</li>
-      </ul>
-      </p>
-      <p>Destroying The Robe of Shadows: The Robe of Shadows can only be destroyed by Vorinthar himself. If anyone else tries to attempt this feat, the robes vanish.</p>
-    </description>
-    <setters>
-      <set name="category">Homebrew Armor</set>
-      <set name="cost" currency="gp">N/A</set>
-      <set name="weight" lb="0">0 lb.</set>
-      <set name="rarity">Artifact</set>
-      <set name="slot">neck</set>
-      <set name="type">Armor</set>
-      <set name="armor">Cloak</set>
-      <set name="attunement">true</set>
-    </setters>
   </element>
   <element name="Ring of Stars" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DND_WIKI_RING_OF_STARS">
     <description>
@@ -193,6 +116,95 @@ While attuned to this ring, the wearer is proficient with the Patchwork Dagger, 
       <set name="equippable">true</set>
       <set name="slot">Body</set>
       <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Cloak of Rewinding" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_CLOAK_OF_REWINDING">
+    <description>
+      <p>The Cloak of Rewinding returns you to the location where you started your turn.</p>
+      <p>As a bonus action, you speak the Cloak's command word and you instantly teleport back to the location you occupied at the start of your turn.</p>
+      <p>If your turn started more than 500 feet away or across planes or dimensions, the Cloak vanishes but leaves you where you are. The Cloak is lost.</p>
+      <p>Each use has a maximum of 3 charges and regains 1s3 spent charges at dawn </p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="rarity">Very Rare</set>
+      <set name="slot">neck</set>
+      <set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Band of Sleeplessness" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_BAND_OF_SLEEPLESSNESS">
+    <description>
+      <p>There's no need for sleep while wearing this enchanted ring. The wearer must still rest as normal to recover spent abilities and to avoid exhaustion.</p>
+      <p>Magical effects cannot cause the wearer to sleep or lose consciousness.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">-</set>
+      <set name="rarity">Uncommon</set>
+      <set name="type">Wondrous Item</set>
+      <set name="equippable">true</set>
+      <set name="slot">Ring</set>
+    </setters>
+  </element>
+  <element name="Eye of Mechna" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_EYE_OF_MECHNA">
+    <description>
+      <p>Once in place, this replacement eye grants +1 to hit with ranged weapon attacks and darkvision out to a range of 60 feet. Your improved vision also provides Advantage on wisdom (perception) checks which require vision.</p>
+      <p>Dispel magic will cause the Eye of Mechna to stop working for 1d8+2 rounds. While not working or in an anti-magic field, wisdom (perception) checks are made at disadvantage.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on wisdom (perception) checks which require vision. Your replacement eye also grants a +1 to hit with ranged weapons.</description>
+    </sheet>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb=0>-</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+      <set name="equippable">true</set>
+      <set name="slot">Eye</set>
+    </setters>
+    <rules>
+      <grant type="Vision" id="ID_VISION_DARKVISION"/>
+    </rules>
+  </element>
+  <element name="Hand of Mechna" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_HAND_OF_MECHNA">
+    <description>
+      <p>Once in place, melee weapons held in this hand do an additional 1d6 force damage. You have advantage on strength (atheletics) checks made with this hand.</p>
+      <p>Dispel magic cast on the Hand of Mechna will cause it to cease functioning for 1d6 rounds. When not working or in an anti-magic field, your melee attack, strength (athletics) checks, and dexterity (sleight of hand, lockpicking) checks made while affected are made at disadvantage</p>
+    </description>
+    <sheet>
+      <description>You have advantage on strength (athletics) checks made with this hand. You also do an additional 1d6 force damage when attacking using a melee weapon in this hand.</description>
+    </sheet>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb=0>-</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+      <set name="equippable">true</set>
+      <set name="slot">Hand</set>
+    </setters>
+  </element>
+  <element name="Leg of Mechna" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_LEG_OF_MECHNA">
+    <description>
+      <p>Once in place, you can jump 25 feet, though you can't jump father than your remaining movement would allow. If you kick a target, they take an additional 1d8 force damage.</p>
+      <p>Dispel magic cast on the Leg of Mechna will cause the lef to malfunction for one minute. While not working or in an anti-magic field, your movement will be halved and dexterity (acrobatics) checks are made at disadvantage.</p>
+    </description>
+    <sheet>
+      <description>You can jump 25 feet, though you can't jump farther than your remaining movement would allow. If you kick a target, they take an addition 1d8 force damage.</description>
+    </sheet>
+        <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb=0>-</set>
+      <set name="rarity">Very Rare</set>
+      <set name="type">Wondrous Item</set>
+      <set name="equippable">true</set>
+      <set name="slot">Leg</set>
     </setters>
   </element>
 </elements>
