@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.0.9">
+        <update version="0.1.0">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -230,7 +230,7 @@
                 <p>While carrying your Deck you gain +2 to your Armor Class.</p>
             </description>
             <rules>
-                <stat name="ac:misc" value="2" equipped="Deck of Cards Lvl 3, Deck of Cards Lvl 11, Deck of Cards Lvl 17" />
+                <stat name="ac:misc" value="2" />
             </rules>
         </element>
         <element name="Conjuring" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_MAJOR_PERKS_CONJURING">
