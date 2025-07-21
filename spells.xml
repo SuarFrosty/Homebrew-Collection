@@ -2,12 +2,12 @@
 <elements>
     <info>
         <name>Spells</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="spells.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
         <element name="Electroarchanic Magic Pulse or EMP" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_EMP">
-            <suppports>Bard, Sorcerer, Warlock, Wizard</supports>
+            <supports>Bard, Sorcerer, Warlock, Wizard</supports>
             <description>
                 <p>A wave of anti-magic radiates out from you and cancels all but the most powerful magical effects</p>
                 <p>Within range, every magical spell effect of 4th level and below which can be dispelled, is dispelled. 5th level magical spells and greater are unaffected.</p>
@@ -28,7 +28,7 @@
             </setters>
         </element>
         <element name="Shuffle" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_SHUFFLE">
-            <suppports>Bard, Sorcerer, Warlock, Wizard, Rogue</supports>
+            <supports>Bard, Sorcerer, Warlock, Wizard, Rogue</supports>
             <description>
                 <p>You warp improbabilities around a single character you can see within range. The target must make a Charisma saving throw. On a failure, at the top of the next round, the target must re-roll their initiative order.</p>
             </description>
@@ -48,7 +48,7 @@
             </setters>
         </element>
         <element name="Shuffle the Deck" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_SHUFFLE_THE_DECK">
-            <suppports>Bard, Sorcerer, Warlock, Wizard, Rogue</supports>
+            <supports>Bard, Sorcerer, Warlock, Wizard, Rogue</supports>
             <description>
                 <p>Improbability erupts invisibly all around you. All creatures in initiative order within range must re-roll their initiatives at the top of the next round. Creatures on a different plane are unaffected.</p>
             </description>
@@ -68,7 +68,7 @@
             </setters>
         </element>
         <element name="Conjure Cardlings" type="Spell" source="Homebrew Collection" id="ID_STEVE_CONLEY_SPELL_CONJURE_CARDLINGS">
-            <suppports>Bard, Rogue</supports>
+            <supports>Bard, Rogue</supports>
             <description>
                 <p>Your magical energy coalesces into the form of a Tiny flying creature in an unoccupied space that you can see within range. The creature lasts for the spell's duation and obeys your verbal commands. If a Cardling drops to 0 hit points, the spell ends. The Cardling counts as an ally for the purposes of Sneak Attack.</p>
                 <p class="indent">The suit of a conjured Cardling is determined randomly. Roll 1d4:</p>
