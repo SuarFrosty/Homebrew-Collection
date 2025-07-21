@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.1.1">
+        <update version="0.1.2">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -59,7 +59,7 @@
         <element name="Decked Out" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DECKED_OUT">
             <description>
                 <p>Also at 3rd level, you are bestowed your own magical set of cards, a Death Dealing Deck.</p>
-                <p class="indent">You also have advantage on skill checks when gambling and cheating and working with cards of any type.</p>
+                <p>You also have advantage on skill checks when gambling and cheating and working with cards of any type.</p>
             </description>
             <sheet>
                 <description>You have advantage on skill checks when gambling, cheating and working with cards of any type.</description>
@@ -100,8 +100,8 @@
         <element name="Ace up Your Sleeve" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_ACE_UP_YOUR_SLEEVE">
             <description>
                 <p>Your skill, magic, and mastery culminate in this Roguish Archetype Feature.</p>
-                <p class="indent">While wielding a weapon with which you are proficient, if you can see the target within range, and the target is not behind complete cover, you hit the target. You cannot miss. You do not roll to hit, and the attack has neither advantage nor disadvantage/ Sneak attack damage is applied/ You can do this once per long rest.</p>
-                <p class="indent">If you're using your Death Dealing deck, a card effect is triggered. Draw a card and apply the effects.</p>
+                <p>While wielding a weapon with which you are proficient, if you can see the target within range, and the target is not behind complete cover, you hit the target. You cannot miss. You do not roll to hit, and the attack has neither advantage nor disadvantage/ Sneak attack damage is applied/ You can do this once per long rest.</p>
+                <p>If you're using your Death Dealing deck, a card effect is triggered. Draw a card and apply the effects.</p>
             </description>
             <sheet usage="1/Long Rest">
                 <description>Attacking an at least semi-visible target within range, with a weapon you're proficient with, will hit, do not roll to attack. Apply sneak attack damage, and if using your Death Dealing Deck, draw a card for an additional effect.</description>
@@ -109,11 +109,11 @@
         </element>
         <element name="Faster Hands Than Fate" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_FASTER_HANDS_THAN_FATE">
             <description>
-                <p>Your skill and experience with magic and cards give you a chance ti cheat fate.</p>
-                <p class="indent"> If you draw a card from a magical deck and don't like the card you've drawn, you can - as a reaction - attempt to return the card to the deck as if you'd never drawn it. Your percentage chance of success is equal to your rogue level.</p>
+                <p>Your skill and experience with magic and cards give you a chance to cheat fate.</p>
+                <p> If you draw a card from a magical deck and don't like the card you've drawn, you can - as a reaction - attempt to return the card to the deck as if you'd never drawn it. Your percentage chance of success is equal to your rogue level.</p>
                 <p class="indent">Example: A level-17 rogue would have a 17% chance of returning the card to the deck.</p>
-                <p class="indent">If successful, the card's effects are not triggered, the card is returned randomly to the deck as if it had never been drawn, and you quickly draw again (you can get the same card). If not successful, the card's effects play out as described.</p>
-                <p class="indent"> This feature doesn't work with your Death Dealing Deck of cards.</p>
+                <p>If successful, the card's effects are not triggered, the card is returned randomly to the deck as if it had never been drawn, and you quickly draw again (you can get the same card). If not successful, the card's effects play out as described.</p>
+                <p> This feature doesn't work with your Death Dealing Deck of cards.</p>
             </description>
             <sheet usage="{{faster-hands-than-fate:uses}}% chance">
                 <description action="Reaction">If you draw a card from a magical deck and don't like what you've drawn, as a reaction, you can return the card to the deck and grab a new card. This prevents the initially drawn card from being activated.</description>
@@ -132,7 +132,7 @@
         </element>
         <element name="Death Dealing Deck Minor Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MINOR_PERKS">
             <description>
-                <p>Your Deck gains a <strong>Minor Perk</strong></p>
+                <p class="indent">Your Deck gains a <strong>Minor Perk</strong></p>
                 <p class="indent">Your Deck gains a minor perk of your choice at levels 7,13, and 19. Each time you level up in this class, you can change your mind and select a different Minor Perk. You must be attuned to and wielding your Death Dealing Deck to gain and/or activate any of these perks. Daily uses recharge at dawn.</p>
             </description>
             <sheet display="false"/>
@@ -144,7 +144,7 @@
         </element>
         <element name="Death Dealing Deck Major Perk" type="Archetype Feature" source="Homebrew Collection" id="ID_STEVE_CONLEY_ARCHETYPE_FEATURE_DEATH_DEALING_DEATH_DEALING_DECK_FEATURE_MAJOR_PERKS">
             <description>
-                <p>Your deck gains a <strong>Major Perk</strong></p>
+                <p class="indent">Your deck gains a <strong>Major Perk</strong></p>
                 <p class="indent">Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
             </description>
             <sheet display="false"/>
