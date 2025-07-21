@@ -918,5 +918,51 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
     </setters>
   </element>
+  <element name="Deck of Many Things" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_HOMEBREW_DECK_OF_MANY_THINGS">
+    <description>
+      <p>This deck of cards is an artifact of immense power and extreme chaos. Twenty-two cards each contain a strange, potent, and often reality-warping effect for your world.</p>
+      <p>The fabric of reality is twisting anew, and Fate himself groans in agony. An adventurer has received an artifact both ancient and strange: the Deck of Many Things, which deals boon and woe with the capriciousness of a fey princess.</p>
+      <p>There is another deck, alike in power, bearing spells and shames never before seen in this world or any other...</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondorus Item</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Deck of Many Fates" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_HOMEBREW_DECK_OF_MANY_FATES">
+    <description>
+      <p>Something is contained within this box. A power similar to the Deck of Many Things, a new power, bearing spells and shames never before seen in this world or any other. I present you, wise man or fool, with the Deck of Many Fates.</p>
+      <p>Unlike its relative, the Deck of Many Fates is a relatively new artifact, unknown to most. It contains a staggering 27 cards, each with a new power, curse, or opportunity. The Deck of Many Fates may be used on its own as an independent deck, or shuffled together with the Deck of Many Things to createa a 49 card hybrid of magic, terror, and destiny.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondorus Item</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Deck of Everything" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_HOMEBREW_DECK_OF_EVERYTHING">
+    <description>
+      <p>"We must be at ease, I do not forsee that Cyric will complete his mission. Her journey persists."</p>
+      <p><em>"Have you not been wrong once? How can you be so certain that you overlook such precautions necessary to prevent such an attack?"</em></p>
+      <p>"I know fate. I know destiny. I know all that has been and will be, how dare you question me. Is this not my domain, you strip me of my place above the spellcasters and threaten my place as beholder of the fates. Insulting."</p>
+      <p><em>"I recieved my title as I was due, you did not deserve such placement, and dare I say you do not deserve your place overseeing fate. With such carelessness over our Lady. you should be ashamed."</em></p>
+      <p>"Hold. I sense something, a disruption. Something is altering the course of the planes. No... <em>someone</em>."</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondorus Item</set>
+      <set name="rarity">Artifact</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
 </elements>
 
