@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Death Dealing Roguish Archetype</name>
-        <update version="0.1.0">
+        <update version="0.1.1">
             <file name="rogue-death-dealing-archetype.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git" />
         </update>
     </info>
@@ -147,6 +147,7 @@
                 <p>Your deck gains a <strong>Major Perk</strong></p>
                 <p class="indent">Your Deck gains a major perk of your chosie at levels 9 and 20. These perks cannot be changed once selected. You must be wielding your attuned Ddeath Dealing Deck to activate any of these perks. Daily uses recharge at dawn.</p>
             </description>
+            <sheet display="false"/>
             <rules>
                 <select type="Archetype Feature" name="Major Perk (Rogue 9)" supports="Major Perk, Death Dealing Rogue, 9" level="9" />
                 <select type="Archetype Feature" name="Major Perk (Rogue 20)" supports="Major Perk, Death Dealing Rogue, 20" level="20" />
