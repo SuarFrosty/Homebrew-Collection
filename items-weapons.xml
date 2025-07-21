@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Weapons</name>
-    <update version="0.0.2">
+    <update version="0.0.3">
       <file name="items-weapons.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -800,7 +800,7 @@ This dagger's blade is vicious in shape after years of being battered and used a
         <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_IMPROVISED_WEAPONS</set>
     </setters>
   </element>
-  <element name="Deck of Cards Lvl 3" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_3">
+  <element name="Deck of Cards Lvl 3" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_3">
     <description>
       <p>You throw a random card. The weapon damage, the bonuses to hit and damage, and range increase at higher levels.</p>
       <p><strong>Additional Effect</strong>: When you roll a 20 or above to hit with your Death Dealing Deck, your attack has an additional effect. The additional effect is determined by drawing a random card from a standard deck of playing/poker cards (leaving two jokers in the deck). After you draw a card, return it to the deck and re-shuffle.</p>
@@ -808,20 +808,20 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p><strong>Do tell...</strong>: If the Detect Magic spell is cast on your Death Dealing Deck, it reveals its magic to be a mix of conjuration and abjuration.</p>
       <p><strong>A fresh deck...</strong> If lost, misplaced, or destroyed, an identical replacement deck (with all its previous perks) can be conjured by spending one hour playing cards in a tavern, pub, or gambling hall.</p>
       <p><strong>There can only be one...</strong>: You can't have more than one Death Dealing Deck at a time.</p>
-      <p><strong>Hands off</strong>: In the ndas of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
+      <p><strong>Hands off</strong>: In the hands of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
     </description>
     <setters>
       <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0.5">0.5 lb.</set>
       <set name="type">Weapon</set>
-      <set name="equippable">true</set>
       <set name="enhancement">1</set>
       <set name="rarity">Unique</set>
+      <set name="attunement">true</set>
       <set name="weapon">Death Dealing Deck Lvl 3</set>
     </setters>
   </element>
-  <element name="Deck of Cards Lvl 11" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_11">
+  <element name="Deck of Cards Lvl 11" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_11">
     <description>
       <p>You throw a random card. The weapon damage, the bonuses to hit and damage, and range increase at higher levels.</p>
       <p><strong>Additional Effect</strong>: When you roll a 20 or above to hit with your Death Dealing Deck, your attack has an additional effect. The additional effect is determined by drawing a random card from a standard deck of playing/poker cards (leaving two jokers in the deck). After you draw a card, return it to the deck and re-shuffle.</p>
@@ -829,20 +829,20 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p><strong>Do tell...</strong>: If the Detect Magic spell is cast on your Death Dealing Deck, it reveals its magic to be a mix of conjuration and abjuration.</p>
       <p><strong>A fresh deck...</strong> If lost, misplaced, or destroyed, an identical replacement deck (with all its previous perks) can be conjured by spending one hour playing cards in a tavern, pub, or gambling hall.</p>
       <p><strong>There can only be one...</strong>: You can't have more than one Death Dealing Deck at a time.</p>
-      <p><strong>Hands off</strong>: In the ndas of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
+      <p><strong>Hands off</strong>: In the hands of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
     </description>
     <setters>
       <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0.5">0.5 lb.</set>
       <set name="type">Weapon</set>
-      <set name="equippable">true</set>
       <set name="enhancement">2</set>
       <set name="rarity">Unique</set>
+      <set name="attunement">true</set>
       <set name="weapon">Death Dealing Deck Lvl 11</set>
     </setters>
   </element>
-  <element name="Deck of Cards Lvl 17" type="Weapon" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_17">
+  <element name="Deck of Cards Lvl 17" type="Magic Item" source="Homebrew Collection" id="ID_WOTC_DECK_OF_CARDS_LVL_17">
     <description>
       <p>You throw a random card. The weapon damage, the bonuses to hit and damage, and range increase at higher levels.</p>
       <p><strong>Additional Effect</strong>: When you roll a 20 or above to hit with your Death Dealing Deck, your attack has an additional effect. The additional effect is determined by drawing a random card from a standard deck of playing/poker cards (leaving two jokers in the deck). After you draw a card, return it to the deck and re-shuffle.</p>
@@ -850,17 +850,72 @@ This dagger's blade is vicious in shape after years of being battered and used a
       <p><strong>Do tell...</strong>: If the Detect Magic spell is cast on your Death Dealing Deck, it reveals its magic to be a mix of conjuration and abjuration.</p>
       <p><strong>A fresh deck...</strong> If lost, misplaced, or destroyed, an identical replacement deck (with all its previous perks) can be conjured by spending one hour playing cards in a tavern, pub, or gambling hall.</p>
       <p><strong>There can only be one...</strong>: You can't have more than one Death Dealing Deck at a time.</p>
-      <p><strong>Hands off</strong>: In the ndas of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
+      <p><strong>Hands off</strong>: In the hands of anyone other than the attuned roague, your Death Dealing Deck becomes a simple, non-magical deck of cards and disintegrates 10 minutes later. If the attuned rogue reclaims the Deck within those ten minutes, it instantly returns to its previous magical form.</p>
     </description>
     <setters>
       <set name="category">Homebrew Weapons</set>
       <set name="cost" currency="gp">N/A</set>
       <set name="weight" lb="0.5">0.5 lb.</set>
       <set name="type">Weapon</set>
-      <set name="equippable">true</set>
       <set name="enhancement">3</set>
       <set name="rarity">Unique</set>
+      <set name="attunement">true</set>
       <set name="weapon">Death Dealing Deck Lvl 17</set>
+    </setters>
+  </element>
+  <element name="Razor of Ockam" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_RAZOR_OF_OCKAM"
+    <description>
+      <p>This impressive sword is among the finest weapons ever made and grants a +3 to attack and damage rolls. While indestructible and perfectly balanced, this weapon is in fact, not magical. It is a product of craft and ingenuity, not sorcery.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="rarity">Very Rare</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+    </setters>
+  </element>
+  <element name="Hourglass of Rest" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_HOURGLASS_OF_REST">
+    <description>
+      <p>Crafted by famed magical mercantile maestro Odius Plotz, this small hourglass has two charges.</p>
+      <p>Turning over this hourglass, and using one charge allows friendly creatures within 30 feet (including yourself) to gain the benefits of a short rest in just 10 minutes of downtime. Using both charges grants friendly creatures within 30 feet (including yourself) the benefits of a long rest after just 30 minutes of downtime.</p>
+      <p>After both charges are used, the hourglass crumbles to dust leaving behind a *10% off* coupon for your next purchase from Plotz Devices. The coupon includes fine print which is too small to read and may, in fact, not be a language at all.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0.5">0.5 lb.</set>
+      <set name="type">Wondorus Item</set>
+      <set name="rarity">Very Rare</set>
+    </setters>
+  </element>
+  <element name="The Curious Card of Elasmo B. Cadabra" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_CURIOUS_CARD">
+    <description>
+      <p>Once per day, you can use an action to throw this card at a point within 40 feet of you.</p>
+      <p>The card vanishes and a large, flying Card Shark appears where the thrown card landed. The Card Shark is friendly to you and your companions. It takes its turn immediately after yours in initiative order and will attack any target you choose. The Card Shark vanishes at the end of your next turn or if it is reduced to 0 hit points.</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Wondrous Items</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="weight" lb="0">0 lb.</set>
+      <set name="type">Wondorus Item</set>
+      <set name="rarity">Very Rare</set>
+      <set name="attunement">true</set>
+    </setters>
+  </element>
+  <element name="Sword of Gambling" type="Magic Item" source="Homebrew Collection" id="ID_STEVE_CONLEY_SWORD_OF_GAMBLING">
+    <description>
+      <p>This is a +1 sword of dazzling craftsmanship.</p>
+      <p>Whenever you attack with the Sword of Gambling, before your roll to hit, you guess the number (1-20) you're about to roll. If you hit, and the number on your attack roll matches your guess, you do an additional 1d6 force damage (this additional damage is not doubled on a critical hit). And, yes, advantage on the roll doubles your chances to guess correctly!</p>
+    </description>
+    <setters>
+      <set name="category">Homebrew Weapons</set>
+      <set name="cost" currency="gp">N/A</set>
+      <set name="type" addition="any sword">Weapon</set>
+      <set name="rarity">Rare</set>
+      <set name="attunement">true</set>
+      <set name="enhancement">1</set>
+      <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
     </setters>
   </element>
 </elements>
