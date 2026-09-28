@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Races</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="races.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -39,6 +39,7 @@
       <stat name="wisdom" value="2"/>
       <stat name="constitution" value="1"/>
       <stat name="innate speed" value="30" bonus="base"/>
+      <stat name="innate speed:climb" value="20" bonus="base"/>
       <grant type="Size" id="ID_SIZE_MEDIUM" />
       <grant type="Language" id="ID_LANGUAGE_MAPACH" />
       <grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -62,9 +63,7 @@
     <description>
       <p>You have a climb speed of 20 feet.</p>
     </description>
-    <sheet>
-      <description>You have a climb speed of 20 feet.</description>
-    </sheet>
+    <sheet display="false"/>
   </element>
   <element name="Resilience" type="Racial Trait" source="Homebrew Collection" id="ID_RACIAL_TRAIT_RESILIENCE">
     <description>
@@ -83,6 +82,9 @@
     <sheet>
       <description>You have the ability to construct crude but functional versions of common items using materials present in your surroundings. You may spend 10 minutes to craft these materials into any tool or piece of adventuring gear worth 30 gold pieces of less. The item will be completely functional but will break on first use, otherwise falling apart after 1 hour. You can spend 8 hours converting an item you have scroungecrafted in this way into a permanent version, so long as you start this process before the item falls apart. If you have proficiency in the tools used to craft these items, they can even look professionally-crafted.</description>
     </sheet>
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TIKERS_TOOLS"/>
+    </rules>
   </element>
   <element name="Skulker" type="Racial Trait" source="Homebrew Collection" id="ID_RACIAL_TRAIT_SKULKER">
     <supports>Halfling</supports>
