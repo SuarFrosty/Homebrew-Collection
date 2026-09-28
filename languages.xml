@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Languages</name>
-    <update version="0.0.1">
+    <update version="0.0.2">
       <file name="languages.xml" url="https://github.com/SuarFrosty/Homebrew-Collection.git"/>
     </update>
   </info>
@@ -17,4 +17,15 @@
       <set name="script">Animal Speak</set>
     </setters>
   </element>
+  <element name="Mapach" type="Language" source="Homebrew Collection" id="ID_LANGUAGE_MAPACH">
+    <supports>Standard</supports>
+    <description>
+      <p>Typically spoken by Mapach folk.</p>
+    </description>
+    <setters>
+      <set name="standard">true</set>
+      <set name="speakers">Mapach</set>
+      <set name="script">Mapach</set>
+    </setters>
+  </element>  
 </elements>
