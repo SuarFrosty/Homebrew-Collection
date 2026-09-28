@@ -20,5 +20,7 @@
 		<file name="rogue-death-dealing-archetype.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/rogue-death-dealing-archetype.xml" />
 		<!-- Spells -->
 		<file name="spells.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/spells.xml" />
+		<!-- Races --!>
+		<file name="races.xml" url="https://raw.githubusercontent.com/SuarFrosty/Homebrew-Collection/main/spells.xml" />
 	</files>
 </index>
